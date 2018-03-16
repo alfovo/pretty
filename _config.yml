@@ -26,6 +26,12 @@ instagram_username: tagging_whales
 dribbble_username: volpertindustries
 github_username:  alfovo
 
+header_pages:
+  - illustration.md
+  - patterns.md
+  - design.md
+  - about.md
+  
 # Build settings
 markdown: kramdown
 theme: minima
