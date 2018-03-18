@@ -32,6 +32,12 @@ header_pages:
   - design.md
   - about.md
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
 # Build settings
 markdown: kramdown
 theme: minima
