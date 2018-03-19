@@ -10,9 +10,11 @@ layout: default
       {% if image.path contains 'illustration' %}
         {% if image.extname == '.svg' %}
           <div class="col-sm-4">
-            <object data="{{ image.path }}" type="image/svg+xml">
-              <img src="{{ image.path }}" />
-            </object>
+            <div class="illustration-grid">
+              <object data="{{ image.path }}" type="image/svg+xml">
+                <img src="{{ image.path }}" />
+              </object>
+            </div>
           </div>
         {% endif %}
       {% endif %}
@@ -20,19 +22,26 @@ layout: default
   </div>
 
   <div class="row">
-  {% for image in image_files %}
-    {% if image.path contains 'illustration' %}
-      {% if image.extname == '.png' %}
-      <div class="col-sm-4">
-        <img src="{{ image.path }}" alt="image" />
-      </div>
+    {% for image in image_files %}
+      {% if image.path contains 'illustration' %}
+        {% if image.extname == '.png' %}
+        <div class="col-sm-4">
+          <img src="{{ image.path }}" alt="image" />
+        </div>
+        {% endif %}
       {% endif %}
-      <!-- {% if image.extname == '.jpg' %}
-      <div class="col-sm-4">
-        <img src="{{ image.path }}" alt="image" />
-      </div>
-      {% endif %} -->
-    {% endif %}
-  {% endfor %}
-</div>
+    {% endfor %}
+  </div>
+
+  <div class="row">
+    {% for image in image_files %}
+      {% if image.path contains 'illustration' %}
+        {% if image.extname == '.jpg' %}
+        <div class="col-sm-4">
+          <img src="{{ image.path }}" alt="image" />
+        </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>

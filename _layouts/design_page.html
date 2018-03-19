@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="container">
+{% if site.posts.size > 0 %}
+  <ul class="design-post-list">
+    {% for post in site.posts %}
+    <li>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <div class="post-list-heading">
+          {{ post.title | escape }} 
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{post.date | date: date_format }}</span>
+        </div>
+        {% assign thumbnail = post.thumbnail %}
+        <object data="{{ image.path }}" type="image/svg+xml">
+          <img src="{{ image.path }}" />
+        </object>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+</div>

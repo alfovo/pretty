@@ -3,3 +3,98 @@
 ---
 
 @import "minima";
+
+body {
+  font: 400 16px/1.5 avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  letter-spacing: 0.25px;
+  line-height: 1.7em;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5 {
+  font: 600 18px/1.5 'Vollkorn', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
+  letter-spacing: 0.25px;
+}
+
+h2, h3 {
+  margin-top: 20px;
+}
+
+//  word wrapper
+.post-content p {
+	max-width: 750px;
+}
+
+.illustration-grid {
+	padding: 10px;
+}
+
+/* Creating a list of relevent tags for the post layout */
+
+.dt-published{
+  font: 100 14px/1.5 avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  text-transform: uppercase; 
+  letter-spacing: 1.5px;
+}
+
+.post-meta {
+  margin-bottom: 10px; }
+
+.post-title {
+  margin-bottom: 10px; }
+
+.post-header {
+  margin-bottom: 20px; }
+
+.tag-list {
+  font: 400 14px/2 Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; 
+  // font: 100 14px/1.5 avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: #BDBDBD;
+    // color: #828282;
+    // text-transform: uppercase; 
+  letter-spacing: 1.5px;
+}
+
+// tags
+ul.tag-list {
+  margin: 0px;
+}
+
+.tag-list li {
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 1.5px solid #e8e8e8;
+  @media screen and (max-width: 800px) {
+    display: block;
+    border-right: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    padding-left: 0px;
+  }
+}
+
+.tag-list li svg {
+  margin-right: 10px;
+  margin-left: 5px;
+  @media screen and (max-width: 800px) {
+  margin-left: 2px; 
+  }
+}
+
+.tag-list li:last-child { 
+  border-right: none;
+  padding-left: 8px;
+  @media screen and (max-width: 800px) {
+    padding-left: 0px; 
+  }
+}
+
+.tag-list li:last-child svg { 
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.tag-list li:first-child svg { 
+  margin-left: 2px;
+}
