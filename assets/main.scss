@@ -5,15 +5,15 @@
 @import "minima";
 
 body {
-  font: 400 18px/1.5 'Alegreya', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
-  letter-spacing: 0.25px;
+  font: 400 18px/1.5 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  letter-spacing: 0.5px;
   line-height: 1.6em;
   color: #333333;
   position: relative;
 }
 
 h1, h2, h3, h4, h5 {
-  font: 600 18px/1.5 'Lato', avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font: 600 18px/1.5 'Alegreya', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
 }
 
 h2, h3 {
@@ -169,11 +169,10 @@ blockquote {
 }
 
 .explainer-text h4 {
-  // text-transform: uppercase;
-  font-family: avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-family: 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-weight: 700;
   text-align: left;
   margin-bottom: 10px;
-  font-size: 18px;
 }
 
 .explainer-text p {
