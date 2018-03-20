@@ -5,15 +5,15 @@
 @import "minima";
 
 body {
-  font: 400 16px/1.5 avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font: 400 18px/1.5 'Alegreya', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
   letter-spacing: 0.25px;
-  line-height: 1.7em;
+  line-height: 1.6em;
+  color: #333333;
   position: relative;
 }
 
 h1, h2, h3, h4, h5 {
-  font: 600 18px/1.5 'Vollkorn', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
-  letter-spacing: 0.25px;
+  font: 600 18px/1.5 'Lato', avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
 h2, h3 {
@@ -44,8 +44,18 @@ a {
 	max-width: 750px;
 }
 
+.post-content a {
+	text-decoration: underline;
+}
+
 .illustration-grid {
 	padding: 10px;
+}
+
+/* Styling for the nav layout */
+
+li.nav-item {
+	font-family: 'Lato', avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
 /* Styling for the design page layout */
@@ -55,13 +65,13 @@ a {
   text-decoration: none;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
-  font: 400 16px/1.5 avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font: 400 16px/1.5 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
 /* Styling for the post layout */
 
 .dt-published{
-  font: 100 14px/1.5 avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font: 300 14px/1.5 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   text-transform: uppercase; 
   letter-spacing: 1.5px;
 }
@@ -72,13 +82,15 @@ a {
 }
 
 .post-title {
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
 
 .post-header {
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
+
+// styling for tags for posts
 
 .tag-list {
-  font: 400 14px/2 Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; 
+  font: 400 16px/2 'Alegreya', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; 
   // font: 100 14px/1.5 avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   color: #BDBDBD;
     // color: #828282;
@@ -86,7 +98,6 @@ a {
   letter-spacing: 1.5px;
 }
 
-// tags for posts
 ul.tag-list {
   margin: 0px;
 }
@@ -128,4 +139,43 @@ ul.tag-list {
 
 .tag-list li:first-child svg { 
   margin-left: 2px;
+}
+
+// styling for individual posts
+
+.aside {
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+
+.prototype {
+	max-width: 400px;
+}
+
+blockquote {
+	// font-weight: 300;
+	letter-spacing: 1.5px;
+	color: #333333;
+	// font: 100 18px/1.5 'Lato', avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+	font-family: 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+.worditout-word-cloud {
+	margin-bottom: 20px;
+}
+
+.explainer-text {
+  padding-bottom: 10px;
+}
+
+.explainer-text h4 {
+  // text-transform: uppercase;
+  font-family: avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.explainer-text p {
+  margin-top: 10px;
 }
