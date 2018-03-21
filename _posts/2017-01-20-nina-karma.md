@@ -23,15 +23,11 @@ I began my research with two questions:
 <p>What kind of people need life coaching?</p>
 </blockquote>
 
-The answers to these questions would to help my client craft a value proposition that will resonate with her customers and a welcoming, attractive scheduling interface, respectively.
-
 {% include nk_pages2.html %}
 
 When reading the profiles, I noticed similar areas of emphasis. Coaches like Barbara Herzog and Jim Weinstein seem to lean heavily on their skill as motivational speakers. Other brands like Carey Coaching and Catherine Ecton Life Coaching emphasize their experience in strategic planning and development. Still others are featured in [Psychology Today](https://www.psychologytoday.com/us/therapists/life-coaching/dc/washington) as licensed therapists equipped to deal with trauma or deficient self-esteem.
 
 {% include nk_pages3.html %}
-
-Since the number of respondents was relatively small, I did not feel I had enough data to create user profiles. However, there did not seem to be a correlation between age or gender and interest in life coaching.
 
 {% include nk_pages5.html %}
 
