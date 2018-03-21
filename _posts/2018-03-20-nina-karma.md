@@ -25,19 +25,21 @@ I began my research with two questions:
 
 ## Workflow
 
-After conducting my research, I spent the first two weeks iterating with Nina on logo design and branding. After settling on a brand-mark and icon set, I created a prototype for single page microsite that highlighted Nina's service offerings, testimonials and information about herself for new customers. From pen and paper, to visual comps in Figma, to high fidelity mockups using Principle, the design process continued for several iterations. I used [Ryan Singer's shorthand](https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows) for my user flow, which I highly recommend since it's fast to sketch and simple to understand. 
+From pen and paper, to visual comps in Figma, to high fidelity mockups using Principle, the design process continued for several iterations. I used [Ryan Singer's shorthand](https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows) for my user flow, which I highly recommend since it's fast to sketch and simple to understand. 
 
 {% include nk_pages3.html %}
 
 ## Branding
 
-We wanted her customers to feel confident, comfortable and empowered to tackle whatever challenges inspired them to seek life coaching. Also, we wanted lighthearted brand imagery to differentiate my client from the traditional images of tree lined parkways, scribbled notebooks and meditating women featured on her competitors' websites. 
+After conducting my research, I spent the first two weeks iterating with Nina on logo design and branding. We wanted her customers to feel confident, comfortable and empowered to tackle whatever challenges inspired them to seek life coaching. Also, we wanted lighthearted brand imagery to differentiate my client from the traditional images of tree lined parkways, scribbled notebooks and meditating women featured on her competitors' websites. 
 
 A bright color palette, custom svg illustrations and simple typography stand out from stock photos that dominate the genre and highlight my client's warm and empathetic approach to life coaching.
 
 {% include nk_pages4.html %}
 
 ## Prototype
+
+After settling on a brand-mark and icon set, I created a prototype for single page microsite that highlighted Nina's service offerings, testimonials and information about herself for new customers.
 
 {% include nk_pages5.html %}
 
