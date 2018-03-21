@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container">
+  {% assign image_files = site.static_files | where: "image", true %}
+  <div class="row">
+    <div class="col">
+    {% for image in image_files %}
+      {% if image.path contains 'patterns' %}
+        {% if image.extname == '.svg' %}
+          <object data="{{ image.path }}" type="image/svg+xml">
+            <img src="{{ image.path }}" />
+          </object>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      {% for image in image_files %}
+        {% if image.path contains 'patterns' %}
+          {% if image.extname == '.png' %}
+            <img src="{{ image.path }}" alt="image" />
+          {% endif %}
+          {% if image.extname == '.jpg' %}
+            <img src="{{ image.path }}" alt="image" />
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

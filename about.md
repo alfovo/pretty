@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<div class="row">
+	<div class="p-4 col-4">
+		<img src="/assets/me_photo.jpg">
+	</div>
+</div>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Nice to meet you, I'm Alex.
 
+After years of working in software development and doing design freelance projects, I left my corporate job to do what I love: creating lovely visual experiences for people, from design to deployment. Check out my resume or send me an email if you're interested in working with me!
 
-[jekyll-organization]: https://github.com/jekyll
+I am also looking for Griswold cast iron skillets. If you are looking to make the deal of a lifetime, please contact me.
