@@ -5,7 +5,7 @@
 @import "minima";
 
 body {
-  font: 400 18px/1.5 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font: 400 16px/1.5 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   letter-spacing: 0.5px;
   line-height: 1.6em;
   color: #333333;
@@ -50,6 +50,10 @@ a {
 
 .illustration-grid {
 	padding: 10px;
+}
+
+.row {
+  padding-bottom: 10px;
 }
 
 /* Styling for the nav layout */
@@ -153,11 +157,8 @@ ul.tag-list {
 }
 
 blockquote {
-	// font-weight: 300;
 	letter-spacing: 1.5px;
 	color: #333333;
-	// font: 100 18px/1.5 'Lato', avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-	font-family: 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
 .worditout-word-cloud {
@@ -168,7 +169,7 @@ blockquote {
   padding-bottom: 10px;
 }
 
-.explainer-text h4 {
+.explainer-text h4, h5 {
   font-family: 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   font-weight: 700;
   text-align: left;

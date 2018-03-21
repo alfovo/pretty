@@ -11,25 +11,17 @@ A successful businesswoman launching her life coaching business in Washington D.
 {% include nk_pages1.html %}
 
 ## The Design Challenge
-Although Nina had success finding customers through word of mouth, she wanted more visibility for her business. Furthermore, being in the relatively new life coaching space, she had some difficulty communicating the value proposition of her services to new customers.
+Although Nina successfully found customers through word of mouth, she wanted more visibility for her business. Furthermore, being in the relatively new life coaching space, she had some difficulty communicating the value proposition of her services to new customers.
 
 Another key concern for Nina was scheduling customer appointments. She had been managing all her appointments through phone or text conversations, which was making it difficult to scale her business. She wanted a faster, easier scheduling process for existing customers and a quick way for new customers to make appointments.
 
 ## Research
 I began my research with two questions: 
 
-<blockquote class="blockquote">
-<p>What kind of brand messages do successful life coaches employ?</p>
-<p>What kind of people need life coaching?</p>
-</blockquote>
+> What kind of people need life coaching?
+> What kind of brand messages do successful life coaches employ?
 
 {% include nk_pages2.html %}
-
-When reading the profiles, I noticed similar areas of emphasis. Coaches like Barbara Herzog and Jim Weinstein seem to lean heavily on their skill as motivational speakers. Other brands like Carey Coaching and Catherine Ecton Life Coaching emphasize their experience in strategic planning and development. Still others are featured in [Psychology Today](https://www.psychologytoday.com/us/therapists/life-coaching/dc/washington) as licensed therapists equipped to deal with trauma or deficient self-esteem.
-
-{% include nk_pages3.html %}
-
-{% include nk_pages5.html %}
 
 ## Workflow
 
