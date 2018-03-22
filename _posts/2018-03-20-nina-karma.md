@@ -44,4 +44,4 @@ After settling on a brand-mark and icon set, I created a prototype for single pa
 {% include nk_pages5.html %}
 
 ## Conclusion
-I learned a lot about UX research methods for this project and would like to employ these methods for future projects.  In particular, I would like to draw more quantitative insights from user interviews and develop more insightful survey questions. I would have liked to develop a user profile for this project, but the data I collected didn't suggest any particular user types to me.
+I learned a lot about UX research methods for this project and would like to employ these methods for future projects.  In particular, I would like to draw more quantitative insights from user interviews and develop more insightful survey questions.
