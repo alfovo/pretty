@@ -14,9 +14,7 @@ layout: default
             <span class="post-meta">{{post.date | date: date_format }}</span>
           </div>
           {% assign thumbnail = post.thumbnail %}
-          <object data="{{ thumbnail }}" type="image/svg+xml">
-            <img src="{{ thumbnail }}" />
-          </object>
+          <img src="{{ thumbnail }}" type="image/svg+xml" />
         </a>
       </div>
     </div>
