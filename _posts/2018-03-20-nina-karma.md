@@ -39,4 +39,6 @@ After settling on a brand-mark and icon set, I created a prototype for single pa
 {% include nk_pages5.html %}
 
 ## Conclusion
-I learned a lot about UX research methods for this project and would like to employ these methods for future projects.  In particular, I would like to draw more quantitative insights from user interviews and develop more insightful survey questions.
+To design a scheduling application for an aspiring life coach in Washington D.C., I used in-depth interviews and surveys to better understand her customer base and their interactions with the interface. I found that the majority of people are interested in trying a life coach, but convenience is key for keeping people engaged. 
+
+I would like to expand on these findings by following up with her customers who are most frequently using the her website to schedule appointments six months after deployment. I also would like to add more information about Nina's life coaching philosophy once she sends me the copy.

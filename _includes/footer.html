@@ -2,11 +2,9 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="container">
+    <div class="row footer-row">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="col-lg-4 footer-columns-1">
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -16,20 +14,25 @@
             {%- endif -%}
             </li>
             {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
             {%- endif -%}
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
+      <div class="col-lg-4 footer-columns-2 contact-list">
         <p>{{- site.description | escape -}}</p>
       </div>
-    </div>
 
+      <div class="col-lg-4 footer-columns-3">
+        <div class="contact-list social-medias">
+          <a href="https://dribbble.com/volpertindustries"><i class="fab fa-dribbble"></i></a>
+          <a href="https://github.com/alfovo"><i class="fab fa-github"></i></a></li>
+          <a href="https://instagram.com/tagging_whales"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/alexandra-volpert-a6a2a758/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
   </div>
 
 </footer>
