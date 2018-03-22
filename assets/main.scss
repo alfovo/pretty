@@ -191,10 +191,16 @@ blockquote {
 
 .footer-columns-2 {
   text-align: center;
+    @media screen and (max-width: 800px) {
+      text-align: left;
+    }
 }
 
 .footer-columns-3 {
   text-align: right;
+      @media screen and (max-width: 800px) {
+      text-align: left;
+    }
 }
 
 .social-medias a {
