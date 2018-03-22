@@ -5,8 +5,7 @@ layout: default
   <div class="row">
     {% if site.posts.size > 0 %}
     {% for post in site.posts %}
-    <div class="col-sm-4">
-      <div class="illustration-grid">
+    <div class="col-sm-4 p-3">
         <a class="post-link" href="{{ post.url | relative_url }}">
           <div class="post-list-heading text-center">
             {{ post.title | escape }}
@@ -16,7 +15,6 @@ layout: default
           {% assign thumbnail = post.thumbnail %}
           <img src="{{ thumbnail }}" type="image/svg+xml" />
         </a>
-      </div>
     </div>
     {% endfor %}
     {% endif %}
