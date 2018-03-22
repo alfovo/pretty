@@ -6,8 +6,6 @@ tags: [ux, illustration, branding, nina]
 thumbnail: /assets/img/design/nina_karma.svg
 ---
 
-A successful businesswoman launching her life coaching business in Washington D.C. requires memorable branding and an easy way for customers to view her services, sign up for her newsletter and schedule appointments. 
-
 {% include nk_pages1.html %}
 
 ## The Design Challenge
@@ -17,9 +15,6 @@ Another key concern for Nina was scheduling customer appointments. She had been 
 
 ## Research
 I began my research with two questions: 
-
-> What kind of people need life coaching?
-> What kind of brand messages do successful life coaches employ?
 
 {% include nk_pages2.html %}
 
