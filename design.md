@@ -1,5 +1,5 @@
 ---
 layout: design_page
-title: Design
+title: UX/UI Design
 permalink: /design/
 ---

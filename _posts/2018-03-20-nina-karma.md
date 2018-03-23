@@ -9,12 +9,12 @@ thumbnail: /assets/img/design/nina_karma.svg
 {% include nk_pages1.html %}
 
 ## The Design Challenge
-Having successfully found customers by word of mouth, Nina wanted more visibility for her business. However, being in the relatively new life coaching space, she had some difficulty communicating the value proposition of her services to new customers.
+Having found customers mostly by word of mouth, Nina wanted more visibility for her business. However, being in the relatively new life coaching space, she had some difficulty communicating the value proposition of her services to new customers.
 
 Nina also wanted a quick and easy way for customers to see her availability and make appointments. She had been managing all her appointments through phone or text conversations, which was making it difficult to scale her business.
 
 ## Research
-I began my research with two questions: 
+I began my research with the question: 
 
 {% include nk_pages2.html %}
 
@@ -34,11 +34,11 @@ A bright color palette, custom svg illustrations and simple typography highlight
 
 ## Prototype
 
-After settling on a brand-mark and icon set, I created a prototype for single page microsite that highlighted Nina's service offerings, testimonials and life coaching philosophy.
+After settling on a brand-mark and icon set, I created a prototype for single page microsite that highlighted Nina's service offerings, testimonials and an included an easy scheduling interface.
 
 {% include nk_pages5.html %}
 
 ## Conclusion
-To design a scheduling application for an aspiring life coach in Washington D.C., I used in-depth interviews and surveys to better understand her customer base and their interactions with the interface. I found that the majority of people are interested in trying a life coach, but convenience is key for keeping them engaged. 
+To help a life coach in Washington D.C. expand her business to new customers, I used in-depth interviews and surveys to better understand her customer base and their interactions with the interface. I found that the majority of people are interested in trying a life coach, but convenience is key for keeping them engaged. 
 
-I would like to expand on these findings by following up with her customers who are most frequently using the her website to schedule appointments in a few months. I also would like to add more information about Nina's life coaching philosophy once we create the copy.
+I would like to expand on these findings by following up with her customers who are most frequently using the her website to schedule appointments in a few months.
