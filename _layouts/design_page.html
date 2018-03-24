@@ -5,9 +5,9 @@ layout: default
   <div class="row">
     {% if site.posts.size > 0 %}
     {% for post in site.posts %}
-    <div class="col-sm-4 p-3">
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <div class="post-list-heading text-center">
+    <div class="col-sm-4 p-4">
+        <a href="{{ post.url | relative_url }}">
+          <div class="post-list-heading text-center m-3">
             {{ post.title | escape }}
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <span class="post-meta">{{post.date | date: date_format }}</span>
