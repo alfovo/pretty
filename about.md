@@ -6,7 +6,7 @@ permalink: /about/
 
 
 <div class="row">
-	<div class="p-4 col-4">
+	<div class="p-4 col-md-4">
 		<img src="/assets/me_photo.jpg">
 	</div>
 </div>
