@@ -19,7 +19,14 @@ The client's needs in descending order of importance are:
 After analyzing competitors' sites and informally interviewing their customers, the client and I decided to make a website for Barks & Rec with a unique brand mark, appointment scheduling and information about their business.
 
 ## Branding
-While they don't have the facilities to board more than six dogs at one time, Barks & Rec is at the intersection of affordable priced and attentive pet service. As a result we settled on a brand that appealed to
+While they don't have the facilities to board more than six dogs at one time, Barks & Rec is at the intersection of an affordably priced and boutique pet service. As a result we settled on a brand that conveyed friendly, cute and pet-centric.
+
+
+![alt text]({{ "/assets/img/design/bn_typography.svg" | absolute_url }})
+![alt text]({{ "/assets/img/design/bn_logo.svg" | absolute_url }})
+
 
 ## Prototype
 The customers of Barks & Rec have different levels of technological literacy, so we wanted to make the scheduling feature of the app simple and immediately accessible.
+
+![alt text]({{ "/assets/img/design/br_landing_page_desktop.png" | absolute_url }})
