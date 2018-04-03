@@ -20,12 +20,13 @@ And we focused on three opportunities:
 
 ## Prototype
 We began our call to action with a clear introduction of issue with enough details to build knowledge, staying positive by focusing on the actionable steps regular people can take to help.
+
 The REPORT action includes quick explanation of why reports are needed and includes links to join the Lights Out pledge to reduce unnecessary lighting and to join the monitoring project as a volunteer. We also included two maps using using the Google Maps Visualization library and Audubon Society data: a heat map to identify hot-spots for collisions, and a point map for more detailed location and species information.
 
 <div class="aside">
 	<div class="row justify-content-left">
 	  <div class="col-lg-10">
-	  	<img class="prototype" src="/assets/img/design/greenspace_hackathon.png" alt="Desktop design"/>
+	  	<img class="prototype" src="/assets/img/design/gh_prototype.png" alt="Desktop design"/>
 	  </div>
 	</div>
 </div>
