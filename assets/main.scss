@@ -4,16 +4,30 @@
 
 @import "minima";
 
-body {
+$primary-text-color: #333333;
+$medium-text-color: #828282;
+$soft-text-color: #BDBDBD;
+
+@mixin serif-font {
+  font: 600 18px/1.5 'Alegreya', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
+  @content;
+}
+
+@mixin sans-serif-font {
   font: 400 16px/1.5 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  @content;
+}
+
+body {
+  @include sans-serif-font;
   letter-spacing: 0.5px;
   line-height: 1.6em;
-  color: #333333;
+  color: $primary-text-color;
   position: relative;
 }
 
 h1, h2, h3, h4, h5 {
-  font: 600 18px/1.5 'Alegreya', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
+  @include serif-font;
 }
 
 h2, h3 {
@@ -33,34 +47,9 @@ a {
     color: inherit;
   }
   &:hover {
-    color: #111;
     text-decoration: none;
     opacity: 0.5;
   }
-}
-
-//  word wrapper
-.post-content p {
-	max-width: 750px;
-}
-
-.post-content a {
-	text-decoration: underline;
-}
-
-.row {
-  padding-bottom: 10px;
-}
-
-/* Styling for the nav layout */
-
-li.nav-item {
-	font-family: 'Lato', avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-}
-
-.navbar { 
-  padding-left: 0;
-  padding-right: 0;
 }
 
 /* Styling for the design page layout */
@@ -69,83 +58,80 @@ li.nav-item {
   font-size: 24px; 
   text-decoration: none;
   letter-spacing: 1.5px;
-  font: 400 16px/1.5 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  @include sans-serif-font;
 }
 
 /* Styling for the post layout */
 
 .dt-published{
-  font: 300 14px/1.5 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  @include sans-serif-font {
+    font-weight: 300;
+    font-size: 14px;
+  }
   text-transform: uppercase; 
   letter-spacing: 1.5px;
 }
 
-.post-meta {
-  margin-bottom: 15px; 
-  font-size: 12px;
-}
-
 .post-title {
-  margin-bottom: 20px; }
-
-.post-header {
-  margin-bottom: 20px; }
+  margin-bottom: 25px; 
+}
 
 // styling for tags for posts
 
 .tag-list {
-  font: 400 16px/2 'Alegreya', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; 
-  // font: 100 14px/1.5 avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  color: #BDBDBD;
-    // color: #828282;
-    // text-transform: uppercase; 
+  @include serif-font {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  color: $soft-text-color;
   letter-spacing: 1.5px;
+  & li {
+    display: inline-block;
+    padding-right: 10px;
+    border-right: 1.5px solid #e8e8e8;
+    @media screen and (max-width: 800px) {
+      display: block;
+      border-right: none;
+      border-bottom: 1px solid #e8e8e8;
+      padding-bottom: 3px;
+      padding-top: 5px;
+      padding-left: 0px;
+    }
+  }
+  & li svg {
+    margin-right: 10px;
+    margin-left: 5px;
+    @media screen and (max-width: 800px) {
+    margin-left: 2px; 
+    }
+  }
+  & li:last-child { 
+    border-right: none;
+    padding-left: 8px;
+    @media screen and (max-width: 800px) {
+      padding-left: 0px; 
+    }
+  }
+  & li:last-child svg { 
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+  & li:first-child svg { 
+    margin-left: 2px;
+  }
 }
 
 ul.tag-list {
   margin: 0px;
 }
 
-.tag-list li {
-  display: inline-block;
-  padding-right: 10px;
-  border-right: 1.5px solid #e8e8e8;
-  @media screen and (max-width: 800px) {
-    display: block;
-    border-right: none;
-    border-bottom: 1px solid #e8e8e8;
-    padding-bottom: 3px;
-    padding-top: 5px;
-    padding-left: 0px;
+// wrapper
+.post-content p {
+  max-width: 750px;
+  & a {
+  text-decoration: underline;
   }
 }
-
-.tag-list li svg {
-  margin-right: 10px;
-  margin-left: 5px;
-  @media screen and (max-width: 800px) {
-  margin-left: 2px; 
-  }
-}
-
-.tag-list li:last-child { 
-  border-right: none;
-  padding-left: 8px;
-  @media screen and (max-width: 800px) {
-    padding-left: 0px; 
-  }
-}
-
-.tag-list li:last-child svg { 
-  margin-right: 2px;
-  margin-left: 2px;
-}
-
-.tag-list li:first-child svg { 
-  margin-left: 2px;
-}
-
-// styling for individual posts
 
 .aside {
 	margin-bottom: 20px;
@@ -158,48 +144,25 @@ ul.tag-list {
 
 blockquote {
 	letter-spacing: 1.5px;
-	color: #333333;
-}
-
-.worditout-word-cloud {
-	margin-bottom: 20px;
+	color: $primary-text-color;
 }
 
 .explainer-text {
   padding-bottom: 10px;
-}
-
-.explainer-text h4, h5 {
+  & h4, h5 {
   font-family: 'Lato', avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   font-weight: 700;
   text-align: left;
-  // margin-bottom: 10px;
+  }
+  & p {
+    margin-top: 10px;
+  }
 }
 
-.explainer-text p {
-  margin-top: 10px;
-}
+/* Styling for the footer */
 
-.footer-row {
-  color: #828282;
-}
-
-.footer-columns-1 {
-  text-align: left;
-}
-
-.footer-columns-2 {
-  text-align: center;
-    @media screen and (max-width: 800px) {
-      text-align: left;
-    }
-}
-
-.footer-columns-3 {
-  text-align: right;
-      @media screen and (max-width: 800px) {
-      text-align: left;
-    }
+footer {
+  color: $medium-text-color;
 }
 
 .social-medias a {
