@@ -11,8 +11,8 @@ permalink: /about/
 	</div>
 </div>
 
-## Nice to meet you, I'm Alex.
+## Hey there friendly stranger.
 
-After working in the software industry for 6+ years, I have worked on just about every part of the software stack. Working as a freelancer for the past couple years, I have been able to focus on what I love: creating delightful visual experiences for people, from design to deployment. My passion is interface design, and I'm hoping to learn and grow from a team of experienced, creative designers and engineers. Check out my [resume](/assets/img/alexandra_volpert_resume.pdf "my resume") if you're interested in working with me!
+I'm Alex Volpert, and I'm a freelance Designer and Engineer. After working in the software industry for 6+ years, I've messed around in just about every part of the stack. As a freelancer I have been able to focus on what I love: creating delightful visual experiences for people, from design to deployment. My passion is interface design, and I'm hoping to learn and grow from a team of experienced, creative designers and engineers. Check out my [resume](/assets/img/alexandra_volpert_resume.pdf "my resume") if you're interested in working with me!
 
-I also collect Griswold skillets manufactured in Erie, Pennsylvania. They just don't make cast-iron cookware like they used to! If you're looking to buy or sell, shoot me an <a href="mailto:afvolpert@gmail.com">email.</a>
+I also collect Griswold skillets manufactured in Erie, Pennsylvania. They just don't make cast-iron cookware like they used to! If you're looking to buy or sell a 🍳, shoot me an <a href="mailto:afvolpert@gmail.com">email.</a>
