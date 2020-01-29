@@ -4,15 +4,14 @@ title: 🦇
 permalink: /about/
 ---
 
-
 <div class="row">
-	<div class="p-4 col-md-4">
-		<img src="/assets/img/me_photo.jpg">
+	<div class="col-lg-4 col-md-6 col-8">
+		<img src="/assets/img/illustration/money_fish.svg">
 	</div>
 </div>
 
-## Hey there friendly stranger!
+### you are in a maze of twisty little passages, all alike.
 
-I'm Alex Volpert, and I'm a freelance Designer and Engineer. After working in the software industry for 6+ years, I've messed around in just about every part of the stack. As a freelancer I have been able to focus on what I love: creating delightful visual experiences for people, from design to deployment. My passion is building user interfaces, and I'm hoping to learn and grow from a team of experienced, creative designers and engineers. Check out my [resume](/assets/img/alexandra_volpert_resume.pdf "my resume") if you're interested in working with me!
+Welcome to my piece of internet real estate! If you're trying to find out more about me, I hope that this is the place you end up. I built this site using [Jeykll](https://jekyllrb.com/) and I think it's a good collection of my best drawings, writing and side projects.
 
-I also collect Griswold skillets manufactured in Erie, Pennsylvania. They just don't make cast-iron cookware like they used to! If you're looking to buy or sell 🍳, shoot me an <a href="mailto:afvolpert@gmail.com">email.</a>
+So help me, I'm always interested in working on a fun side project. Let me know if you have an interesting proposition. I also collect Griswold skillets manufactured in Erie, Pennsylvania. They just don't make cast-iron cookware like they used to! If you're looking to buy or sell 🍳, shoot me an <a href="mailto:afvolpert@gmail.com">email.</a>
