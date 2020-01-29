@@ -6,45 +6,50 @@ tags: [ux, illustration, front-end, hackathon]
 thumbnail: /assets/img/design/hackathon.svg
 ---
 
+At the 2018 Greenspace Hackathon, I joined Adam Betuel of the
+<a href="https://www.atlantaaudubon.org/"> Atlanta Audubon Society</a>
+and 10 other volunteers to raise awareness about bird/building collisions in the Atlanta metro area.
+
 {% include gh_pages1.html %}
 
-## The Design Challenge
+### The Design Challenge
 
-We only had a weekend to use resources from the Atlanta Audubon Society to raise awareness of bird collisions. Using data on bird/building collisions provided by the Atlanta Audubon Society we narrowed in on two pain points:
+Each year, up to a billion birds collide with buildings in the
+United States. Glass windows and other reflective surfaces can be
+invisible to birds during the day and bright lights disorient
+migrating species at night. Since scientists began monitoring bird collisions in
+the fall of 2014, over 900 birds from 89 different species have been
+collected and studied in Atlanta.
 
-1. Lack of knowledge about the issue of bird collisions in Atlanta
-2. Poor clarity of reports that must be manually sorted through by one person, with species misidentification being the biggest issue
+We had a weekend to raise awareness about bird mortality. Using data provided by the Atlanta Audubon Society, we narrowed in on two pain points:
 
-And we focused on three opportunities:
+- Lack of knowledge and engagement among the general public about bird mortality
+- User error such as species misidentification in bird collision reporting
 
-1. Providing easily digestible information to increase awareness and engagement among the general public
-2. Sharing real-time data that shows the impact of this issue in Atlanta in an interactive map
-3. Simplifying the reporting process to improve the quality of submissions and reduce time spent sorting through them
+We decided to focused on three opportunities:
 
-## Prototype
+1. Increase awareness and engagement among the general public
+2. Share real-time data on bird collisions via an interactive map.
+3. Simplify the reporting process to improve the quality of submissions.
 
-We began our call to action with a clear introduction of issue with enough details to build knowledge, staying positive by focusing on the actionable steps regular people can take to help.
+### Prototype
 
-The REPORT action includes quick explanation of why reports are needed and includes links to join the Lights Out pledge to reduce unnecessary lighting and to join the monitoring project as a volunteer. We also included two maps using using the Google Maps Visualization library and Audubon Society data: a heat map to identify hot-spots for collisions, and a point map for more detailed location and species information.
+In our call to action, we focused on easy, actionable ways to help monitor and reduce bird collisions. The REPORT action includes quick explanation of bird collision monitoring, the JOIN US action prompts the user to sign a pledge to reduce light pollution, and the GET INVOLVED action links the user to opportunities to join the monitoring project as a volunteer.
 
-<div class="aside">
-	<div class="row justify-content-left">
-	  <div class="col-lg-10">
-	  	<img class="prototype" src="/assets/img/design/gh_prototype.png" alt="Desktop design"/>
-	  </div>
-	</div>
+We also included two maps using using the Google Maps Visualization library and Audubon Society data: a heat map to identify hot-spots for collisions and a point map for more detailed location and species information.
+
+<div class="row justify-content-left">
+  <div class="col-lg-9">
+  	<img class="prototype" src="/assets/img/design/gh_prototype.png" alt="Desktop design"/>
+  </div>
 </div>
 
-## Next Steps
+### Next Steps
 
-To further improve the reporting process by engaging citizen scientists around the world to help identify species through photos shared on social media. Possible Twitter integration.
-Because we focused mostly on empowering the layperson for the MVP, we want to add resources for engaging businesses and local government.
-Increasing the educational content by adding a bird identification guide to increase accuracy of reports
+To further improve the reporting process, we would like to include a bird identification guide on the site.
 
-<div class="aside">
-	<div class="row justify-content-left">
-	  <div class="col-lg-10">
-	  	<img class="prototype" src="/assets/img/design/gh_team.jpg" alt="Team picture"/>
-	  </div>
-	</div>
+<div class="row justify-content-left">
+  <div class="col-lg-8 col-md-9">
+  	<img class="prototype" src="/assets/img/design/gh_team.jpg" alt="Team picture"/>
+  </div>
 </div>
