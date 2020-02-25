@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Emoji Index
+title: The Emoji Index
 date: 2019-12-02 14:49:03 -0500
-tags: [data, code, genius]
+tags: [data, code, emoji]
 thumbnail: /assets/img/design/paul_data.svg
 ---
 
 During the winter holidays I built an express application that tallies emojis for all users within the last 1000 messages for all slack channels within a slack team in order to determine how members of work chats use emojis. My hypothesis was that members use emojis non-literally for rhetorical or vivid effect.  This is in contrast to the idea that people use emojis literally, as in the sentence: _I am so 😴 this morning because I haven't had my ☕_. I've worked in places where emojis took on an abstract meaning sometimes only tenuously related to their pictographic meaning.
 
-Here are some examples of emoji slang on teams I have been on:
+Some examples of emoji slang for teams I have been on:
 
 * 🌾 -- the servers are sleeping soundly
 * 🥩 -- I have deployment related anxiety
@@ -27,7 +27,7 @@ I gave a talk on my findings at [January's Tech Confluence meetup](https://www.m
 <!-- Copy and Paste Me -->
 <div class="row justify-content-left">
   <div class="col-lg-8 col-10 pb-4 pt-2">
-    <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+    <div class="glitch-embed-wrap" style="height: 40em; width: 100%;">
       <iframe
         src="https://glitch.com/embed/#!/embed/alfovo-emoji-index?path=index.js&previewSize=100"
         title="alfovo-emoji-index on Glitch"
@@ -38,4 +38,4 @@ I gave a talk on my findings at [January's Tech Confluence meetup](https://www.m
   </div>
 </div>
 
-Some recommended reading -- Richard Brautigan's poem, ["All Watched Over by Machines of Loving Grace"](https://www.theatlantic.com/technology/archive/2011/09/weekend-poem-all-watched-over-by-machines-of-loving-grace/245251/). Thank you to Gabe for letting me spend some of my work hours on this fun project and thank you to past friends who kindly tempered your PR reviews with emojis when I was learning to code.
+This project was inspired by Richard Brautigan's poem, ["All Watched Over by Machines of Loving Grace"](https://www.theatlantic.com/technology/archive/2011/09/weekend-poem-all-watched-over-by-machines-of-loving-grace/245251/). Thank you to Gabe for letting me spend some of my work hours on this fun project and thank you to past friends who kindly tempered their PR reviews with emojis when I was learning to code.
