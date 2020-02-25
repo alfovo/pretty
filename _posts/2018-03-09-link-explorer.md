@@ -15,8 +15,4 @@ front-end.
 
 {% include lp_pages.html %}
 
-### Prototype
-
-Stay posted. Link Explorer is expected to launch in April.
-
-![alt text]({{ "/assets/img/design/lp_desktop.png" | absolute_url }})
+![desktop mockup]({{ "/assets/img/design/lp_desktop.png" | absolute_url }})
