@@ -5,7 +5,7 @@ date: 2019-12-02 14:49:03 -0500
 tags: [data, code, emoji]
 thumbnail: /assets/img/design/peachmotions.svg
 ---
-thumbnail: /assets/img/illustration/paul_data.svg
+
 I like emojis, I think they add a lot to software development 🧐.
 
 They can express [solidarity on code reviews](https://github.blog/2018-12-07-octoverse-emoji-on-github/), helpfully [label certain kinds of messages](https://18f.gsa.gov/2015/12/08/using-emoji-for-knowledge-sharing/), or politely [suggest a comment belongs in different channel](https://medium.com/@mathowie/yeah-it-started-with-someone-finding-this-funny-image-of-a-raccoon-looking-super-helpful-and-once-971e7c901e8e#.ka1cy355g). In an industry where precise and economical language is important, emojis can add playfulness without distracting from the primary meaning of a message.
