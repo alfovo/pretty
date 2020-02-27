@@ -15,4 +15,10 @@ front-end.
 
 {% include lp_pages.html %}
 
+#### Key Features
+* Show how an intelligent link reacts in different scenarios.
+* Generate a tangible report that users can easily share.
+* Create a tool that is fun to use and will become the go-to tool for marketers to checking their links.
+
+
 ![desktop mockup]({{ "/assets/img/design/lp_desktop.png" | absolute_url }})

@@ -39,17 +39,7 @@ In our call to action, we focused on easy, actionable ways to help monitor and r
 We also included two maps using using the Google Maps Visualization library and Audubon Society data: a heat map to identify hot-spots for collisions and a point map for more detailed location and species information.
 
 <div class="row justify-content-left">
-  <div class="col-lg-9">
+  <div class="col-lg-12 pt-4">
   	<img class="prototype" src="/assets/img/design/gh_prototype.png" alt="Desktop design"/>
-  </div>
-</div>
-
-### Next Steps
-
-To further improve the reporting process, we would like to include a bird identification guide on the site.
-
-<div class="row justify-content-left">
-  <div class="col-lg-8 col-md-9">
-  	<img class="prototype" src="/assets/img/design/gh_team.jpg" alt="Team picture"/>
   </div>
 </div>
