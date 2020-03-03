@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nina Karma
+title: Yes Coach!
 date: 2018-03-20 14:49:03 -0500
 tags: [ux, illustration, branding, nina]
 thumbnail: /assets/img/design/nina_karma.svg
