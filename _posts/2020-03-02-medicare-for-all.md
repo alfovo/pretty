@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Medicare For All
-date: 2020-03-01 14:49:03 -0500
+date: 2020-03-02 14:49:03 -0500
 tags: [data, emoji]
 thumbnail: /assets/img/illustration/solidarity_forever.svg
 ---
