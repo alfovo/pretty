@@ -6,6 +6,4 @@ tags: [data, emoji]
 thumbnail: /assets/img/illustration/paul_data.svg
 ---
 
-Lately I have been doing some data analysis for fun. I'm preparing to make a chatbot that will call me pygmalion.
-
-Here is my analysis of [👶 👶🏽 👶🏿 The Trendiest Baby Girl Name of All Time 🐣 📈 🌹](https://www.kaggle.com/alfovo/the-trendiest-baby-girl-names)
+To refresh my 🐍 pandas skills, I have been doing some data analysis on [kaggle](https://www.kaggle.com/). I present to you, [👶 👶🏽 👶🏿 The Trendiest Baby Girl Name of All Time 🐣 📈 🌹](https://www.kaggle.com/alfovo/the-trendiest-baby-girl-names).

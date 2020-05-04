@@ -16,9 +16,8 @@ $soft-text-color: #bdbdbd;
 }
 
 @mixin sans-serif-font {
-  font: 400 16px/1.5 avenir next, avenir, -apple-system,
-    BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto,
-    segoe ui, arial, sans-serif;
+  font: 400 16px/1.5 avenir next, avenir, -apple-system, BlinkMacSystemFont,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   @content;
 }
 
@@ -136,7 +135,7 @@ ul.tag-list {
 
 // wrapper
 .post-content {
-  max-width: 640px;
+  max-width: 630px;
   & a {
     text-decoration: underline;
   }
