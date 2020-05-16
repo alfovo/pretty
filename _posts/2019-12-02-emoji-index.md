@@ -36,8 +36,7 @@ Again, no. My coworkers seemed a little nonplussed at having their emojis observ
 
 I gave a talk on my findings at [January's Tech Confluence meetup](https://www.meetup.com/TechConfluence/events/rwkxkrybccbtb/). You can find the slides [here](https://docs.google.com/presentation/d/1wqI0McejPnMmEmz42v1qaCC3O9n1TR1ztVBszEp192s/edit#slide=id.p). Below is a live tally of emojis in the slack workplace I have with my friends.
 
-<!-- Copy and Paste Me -->
-<div class="row justify-content-left pb-4 pt-2">
+<div class="row pb-4 pt-2">
     <div class="glitch-embed-wrap" style="height: 40em; width: 100%;">
       <iframe
         src="https://glitch.com/embed/#!/embed/alfovo-emoji-index?path=index.js&previewSize=100"
