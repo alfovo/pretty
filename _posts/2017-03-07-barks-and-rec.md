@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Barks & Rec
-date: 2018-03-07 14:49:03 -0500
+date: 2017-03-07 14:49:03 -0500
 tags: [ux, illustration, branding, barks]
 thumbnail: /assets/img/design/barks_and_rec.svg
 ---

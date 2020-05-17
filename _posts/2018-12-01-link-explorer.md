@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Link Explorer
-date: 2018-03-09 14:49:03 -0500
+date: 2017-12-01 14:49:03 -0500
 tags: [ux, code, genius]
 thumbnail: /assets/img/design/link_explorer.svg
 ---
@@ -21,10 +21,9 @@ front-end.
     <h3>The Design Challenge</h3>
     <p>
       Link Explorer is a free web tool that allows marketers to examine how
-      their intelligent links are behaving and routing. Genius LInk is hoping
-      that it will help their customers save time when testing how their
-      intelligent links are behaving as they're being routed to various
-      destinations around the world.
+      their intelligent links are behaving and routing. Genius Link is hoping
+      to save their customers time when testing how intelligent links behave as
+      they're being routed to various destinations around the world.
     </p>
   </div>
 </div>
