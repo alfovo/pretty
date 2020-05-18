@@ -28,8 +28,11 @@ I am excited to have an online store to get feedback on my latest pen and ink wo
   <div class="col-md-6 pt-4">
   	<img class="prototype" src="/assets/img/design/duney_front_card.jpg" alt="Duney A7 Card"/>
   </div>
-  <div class="col-md-6 pt-4 pb-4">
+  <div class="col-md-6 pt-4">
   	<img class="prototype" src="/assets/img/design/harlee_card.jpg" alt="Harlee A7 Card"/>
+  </div>
+  <div class="col-lg-12 pt-4 pb-4">
+    <img class="prototype" src="/assets/img/design/tp_card.jpg" alt="Trailer Park A7 Card"/>
   </div>
 </div>
 
