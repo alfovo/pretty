@@ -6,7 +6,7 @@ tags: [postal, illustration, camelot]
 thumbnail: /assets/img/design/shirley_chisholm_card.jpg
 ---
 
-Inspired by the Women's March, we decided to create a portrait series to highlight the work of lesser known female activists.
+Inspired by the [Women's March](https://en.wikipedia.org/wiki/2017_Women%27s_March), we created a portrait series to highlight the work of lesser known female activists.
 
 ### Sylvia Rivera
 
@@ -58,7 +58,7 @@ Known as one of the best tennis players of all time, Billie Jean King was also a
 
 ### Future Portraits
 
-There were lots of other women I wanted to include but didn't have time to sketch. Such as, in no particular order:
+There were other women I wanted to include but didn't have time to sketch. In no particular order, these were:
 
 - Margret Knight
 - Temple Grandin
