@@ -35,9 +35,7 @@ We've added a series of cards and stickers with our houseplants on them. Succule
 
 ### Update from March 2017
 
-We've added another new series of cards: five portraits of lesser known women activists. Inspired by the recent presidential election, we pledged to donate half the profits from our cards to [Planned Parenthood](https://www.plannedparenthood.org/get-involved/other-ways-give).
-
-#### Sylvia Rivera
+We've added another [new series of cards](https://alexvolpert.com/2017/02/28/women-of-note.html): five portraits of lesser known women activists. Inspired by the recent presidential election, we pledged to donate half the profits from our cards to [Planned Parenthood](https://www.plannedparenthood.org/get-involved/other-ways-give).
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
@@ -45,47 +43,7 @@ We've added another new series of cards: five portraits of lesser known women ac
   </div>
 </div>
 
-> “Hell hath no fury like a drag queen scorned”
-
-Sylvia Rivera was a drag queen and civil rights activist who fought for transgender and gay rights. She fought to keep both transgender people and drag culture as a part of the broader lesbian and gay rights movement. While marching in Italy, she was dubbed “The mother of all gay people”.
-
-#### Ella Baker
-
-<div class="row">
-  <div class="col-lg-12 pt-4 pb-4">
-    <img class="prototype" src="/assets/img/design/ella_baker_card.jpg" alt="Ella Baker A7 card"/>
-  </div>
-</div>
-
-> “Strong people don’t need strong leaders.”
-
-A hero of the civil rights movement, Ella Baker played key roles in the NAACP, the Southern Christian Leadership Conference, and Student Nonviolent Coordinating Committee. She supported grass-roots political activism and a collectivist style of leadership. She mentored and inspired a generation of young civil rights activists.
-
-#### Shirley Chisholm
-
-<div class="row">
-  <div class="col-lg-12 pt-4 pb-4">
-    <img class="prototype" src="/assets/img/design/shirley_chisholm_card.jpg" alt="Ella Baker A7 card"/>
-  </div>
-</div>
-
-> “If they don't give you a seat at the table, bring a folding chair.”
-
-In 1969, Shirley Chisholm was the first black woman to be elected to the US Congress, where she held seven terms. She was also the first black candidate to run for a major party’s nomination for president of the United States.
-
-#### Billie Jean King
-
-<div class="row">
-  <div class="col-lg-12 pt-2 pb-4">
-    <img class="prototype" src="/assets/img/design/bjk_card.jpg" alt="Ella Baker A7 card"/>
-  </div>
-</div>
-
-> “If you're going to make an error, make a doozy.”
-
-Known as one of the best tennis players of all time, Billie Jean King was also a strong advocate for gender equality, and she fought for equal prize money for men and women. In her 1973 “Battle of the Sexes” match against a male former Wimbledon champion, she beat him in front of 50 million TV viewers. After King threatened to boycott the US Open, it became the first tournament to offer equal pay to men and women. She was also one of the first major athletes to come out as openly gay.
-
-### On Printing and Methodology
+### On the Manufacturing of Cards
 
 Thanks to a loan from my wonderful aunt, I bought an Epson Artisan Inkjet Printer so that I could print test batches of cards with different color settings and sizes. I'm now printing my cards on Inkpress Rag Warm Tone 200gsm Inkjet paper and hand folding them on a scoring board. While the profit on these cards is minimal, I am now satisfied with the quality of the final product.
 
