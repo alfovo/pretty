@@ -22,12 +22,12 @@ People of the 21st century are fascinated by the idea virtual world changing hum
 
 I think adventure games are useful because they give us some insight into a time when our relationship to virtual reality may have been different. Rather than the effect of virtual reality on the human brain, we can see the effect of culture, society and politics on virtual reality, especially in its initial manifestations in our home as games.
 
-This perspective is similar to how one might invert the old argument that exposure to video games makes children violent. Perhaps violence in video games reflects our culture's general disregard for human life and not, as the tabloids of my youth claimed, the cause of it. This change in perspective allows us to take a look as adventure games functioning as art, namely as Charles Hawthorne [writes](https://www.goodreads.com/book/show/171004.Hawthorne_on_Painting), "the ability t tell the world something that it unconsciously thinks about nature."
+This perspective is similar to how one might invert the old argument that exposure to video games makes children violent. Perhaps violence in video games reflects our culture's general disregard for human life and not, as the tabloids of my youth claimed, the cause of it. This change in perspective allows us to take a look as adventure games functioning as art, namely as Charles Hawthorne [writes](https://www.goodreads.com/book/show/171004.Hawthorne_on_Painting), "the ability to tell the world something that it unconsciously thinks about nature."
 
 ### Research Questions
 
 - What is the historical evolution of the adventure game genre? Why did it largely give way to first person shooters?
-- What were game designer’s influences? What were their backgrounds? What were they motivated to express?
+- What were the game designers' influences? What were their backgrounds? What were they motivated to express?
 - How did adventure game designers feel about the present and future of virtual reality?
 
 ### Presentation
