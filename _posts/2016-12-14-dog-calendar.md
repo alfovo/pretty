@@ -23,16 +23,13 @@ I am excited to have an online store to get feedback on my latest pen and ink wo
 
 <div class="row">
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/first_sale.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+  	<img class="prototype" src="/assets/img/design/first_sale.jpg" alt="A harassed me about to mail my first sale"/>
   </div>
-</div>
-
-<div class="row">
-  <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/duney_front_card.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+  <div class="col-md-6 pt-4">
+  	<img class="prototype" src="/assets/img/design/duney_front_card.jpg" alt="Duney A7 Card"/>
   </div>
-  <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/harlee_card.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+  <div class="col-md-6 pt-4 pb-4">
+  	<img class="prototype" src="/assets/img/design/harlee_card.jpg" alt="Harlee A7 Card"/>
   </div>
 </div>
 
@@ -40,7 +37,7 @@ The other nice thing about switching to pen and ink drawings is that I can creat
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/my_office.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+  	<img class="prototype" src="/assets/img/design/my_office.jpg" alt="My office on Camelot Ln"/>
   </div>
 </div>
 
@@ -54,12 +51,9 @@ Carolyn wrote up a great description for the Raku pots we made with Zach and Lis
 
 <div class="row">
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/raku_monster.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+  	<img class="prototype" src="/assets/img/design/raku_monster.jpg" alt="Raku monster"/>
   </div>
-</div>
-
-<div class="row">
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/raku_pinch_pot.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+  	<img class="prototype" src="/assets/img/design/raku_pinch_pot.jpg" alt="Raku pinch pot"/>
   </div>
 </div>

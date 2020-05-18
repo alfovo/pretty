@@ -6,9 +6,38 @@ tags: [branding, illustration, camelot]
 thumbnail: /assets/img/design/succulent_front_card.jpg
 ---
 
-My application to sell greeting cards at [Hodgepodge Coffee](https://hodgepodgecoffee.com/) on Mooreland for the next five months has been accepted! As part of Camelot Collective I'm selling cards and pins with drawings of my favorite dogs.
+My application to sell greeting cards at [Hodgepodge Coffee](https://hodgepodgecoffee.com/) on Mooreland Ave for the next five months has been accepted! Camelot Collective is selling cards and pins with drawings of our most charismatic dogs.
 
-An addendum from August 2017: we also sold succulent stickers and cards and five portraits of my favorite women activists: Sylvia Rivera, Dolores Huerta, Ella Baker and Shirley Chisholm. Inspired by the recent presidential election, we pledged to donate half the profits from our cards to [Planned Parenthood](https://www.plannedparenthood.org/get-involved/other-ways-give).
+<div class="row">
+  <div class="col-lg-12 pt-4 pb-4">
+  	<img class="prototype" src="/assets/img/design/german_co_card.jpg" alt="German and dogs A7 card"/>
+  </div>
+</div>
+
+### Update from February 2017
+
+We've added a series of cards and stickers with our houseplants on them. Succulents seem especially trendy at the moment and I am happy to jump on the bandwagon. I am pleased with how well my [first order of stickers](https://www.stickermule.com/) turned out.
+
+<div class="row">
+  <div class="col-lg-12 pt-4">
+  	<img class="prototype" src="/assets/img/design/plant_collection.jpg" alt="Plant collection notecard set"/>
+  </div>
+  <div class="col-lg-12 pt-4">
+  	<img class="prototype" src="/assets/img/design/pearl_plant_card.jpg" alt="Pearl Plant A7 card"/>
+  </div>
+  <div class="col-md-6 pt-4">
+  	<img class="prototype" src="/assets/img/design/christmas_cactus_card.jpg" alt="Christmas Cactus A3 card"/>
+  </div>
+  <div class="col-md-6 pt-4">
+    <img class="prototype" src="/assets/img/design/seedum_card.jpg" alt="Seedum A3 card"/>
+  </div>
+</div>
+
+### Update from March 2017
+
+We've added another new series of cards; five portraits of my favorite women activists: Sylvia Rivera, Dolores Huerta, Ella Baker and Shirley Chisholm. Inspired by the recent presidential election, we pledged to donate half the profits from our cards to [Planned Parenthood](https://www.plannedparenthood.org/get-involved/other-ways-give).
+
+Thanks to a loan from my wonderful aunt, I bought an Epson Artisan Inkjet Printer so that I could print test batches of cards with different color settings and sizes. I'm now printing my cards on Inkpress Rag Warm Tone 200gsm Inkjet paper and hand folding them on a scoring board. While the profit on these cards is minimal, I am now satisfied with the quality of the final product.
 
 The following is our artist statement, one of the more difficult kinds of statements one can make:
 
@@ -22,24 +51,9 @@ The following is our artist statement, one of the more difficult kinds of statem
 
 <div class="row">
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/german_co_card.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+  	<img class="prototype" src="/assets/img/design/sylvia_rivera_card.jpg" alt="Sylvia Rivera A7 card"/>
   </div>
-</div>
-
-<div class="row">
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/sylvia_rivera_card.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/ella_baker_card.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/pearl_plant_card.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+    <img class="prototype" src="/assets/img/design/ella_baker_card.jpg" alt="Ella Baker A7 card"/>
   </div>
 </div>
