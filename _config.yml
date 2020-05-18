@@ -27,7 +27,6 @@ github_username: alfovo
 header_pages:
   - projects.md
   - illustration.md
-  - patterns.md
   - about.md
 
 defaults:
