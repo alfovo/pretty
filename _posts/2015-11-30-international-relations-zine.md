@@ -6,7 +6,7 @@ tags: [illustration, postal, ir]
 thumbnail: /assets/img/ir_zine/vz_toilet.png
 ---
 
-Hilary and I decided to start a zine exchange! The theme of our first exchange is _International Relations_. Always ambitious, I imagined that I'd be able to produce a zine in a month, but I'm not yet the content machine I aspire to be. The following zine took me a couple months to draw and was inspired by the time I spent traveling to IBM sales summits in 2012. My inheritance is a previous life as a traveling computer salesman. The tone was inspired by episodes of _Star Trek: The Next Generation_, which I've been watching for the first time since I was a toddler.
+Hilary and I started a zine exchange! The theme of our first exchange is _International Relations_. Always ambitious, I imagined that I'd be able to produce a zine in a month, but I'm not yet the content machine I aspire to be. The following zine took me a couple months to draw and was inspired by the time I spent traveling to IBM sales summits in 2012. My inheritance is a previous life as a traveling computer salesman. The tone was inspired by episodes of _Star Trek: The Next Generation_, which I've been watching for the first time since I was a toddler.
 
 <div class="row">
   <div class="col-lg-12 pt-4">
