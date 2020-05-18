@@ -6,7 +6,7 @@ tags: [talk, research, games]
 thumbnail: /assets/img/illustration/loading.svg
 ---
 
-For my second talk at Tech Confluence, I presented on Art and History of Adventure Games Pt 1: the 70s and 80s. I would really like to make this talk into a zine when I have some more time.
+For my second talk at [Tech Confluence](https://www.meetup.com/TechConfluence/events/lwslfpyzjbzb/), I presented on Art and History of Adventure Games Pt 1: the 70s and 80s. I would really like to make this talk into a zine when I have some more time.
 
 ### What is an Adventure Game?
 

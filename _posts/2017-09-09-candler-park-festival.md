@@ -3,7 +3,7 @@ layout: post
 title: Candler Park Fall Fest
 date: 2017-09-09 14:49:03 -0500
 tags: [branding, illustration, festival, camelot]
-thumbnail: /assets/img/design/camelot_collective_logo2.png
+thumbnail: /assets/img/design/camelot_collective_logo1.svg
 ---
 
 Our heroes, Camelot Collective participated in their third festival, the [Candler Park Fall Fest](https://fallfest.candlerpark.org/). This time we did not break even, the sun beat down on our booth and my eyes felt a little unfocused from all the card folding I had barely completed the night before.
