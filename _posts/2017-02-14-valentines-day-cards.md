@@ -12,17 +12,17 @@ Now that I'm a greeting card entrepreneur, I can't miss the most important card 
   <div class="col-lg-12 pt-4">
   	<img class="prototype" src="/assets/img/design/meowy_me_card.jpg" alt="Meowy me A7 Valentines Day Card"/>
   </div>
+  <div class="col-lg-12 pt-4">
+    <img class="prototype" src="/assets/img/design/mantis_card_front.jpg" alt="Mantis A7 Valentines Day Card Front"/>
+  </div>
+  <div class="col-lg-12 pt-4">
+  	<img class="prototype" src="/assets/img/design/mantis_card_inside.jpg" alt="Mantis A7 Valentines Day Card Back"/>
+  </div>
   <div class="col-md-6 pt-4">
   	<img class="prototype" src="/assets/img/design/boobies_card_front.jpg" alt="Boobie A7 Valentines Day Card Front"/>
   </div>
   <div class="col-md-6 pt-4">
   	<img class="prototype" src="/assets/img/design/boobies_card_inside.jpg" alt="Boobie A7 Valentines Day Card Back"/>
-  </div>
-  <div class="col-md-6 pt-4">
-  	<img class="prototype" src="/assets/img/design/mantis_card_inside.jpg" alt="Mantis A7 Valentines Day Card Back"/>
-  </div>
-  <div class="col-md-6 pt-4">
-    <img class="prototype" src="/assets/img/design/mantis_card_front.jpg" alt="Mantis A7 Valentines Day Card Front"/>
   </div>
   <div class="col-lg-12 pt-4">
   	<img class="prototype" src="/assets/img/design/gully_card.jpg" alt="Gulliver A7 Valentines Day Card"/>
