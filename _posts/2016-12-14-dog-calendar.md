@@ -3,17 +3,17 @@ layout: post
 title: 2017 Dog Calendar
 date: 2016-12-14 14:49:03 -0500
 tags: [illustration, ceramics, postal, camelot]
-thumbnail: /assets/img/design/bojangles.png
+thumbnail: /assets/img/illustration/bojangles.png
 ---
 
 I've designed my first mass produced artistic product: 12 original pen and ink drawings of dogs in various states of excitement by yours truly! Most of the credit goes to Carolyn, who took the dog photos that furnished my illustrations, arranged those illustrations in a calendar and on greeting cards, and also took product photos. We've named our artist collective _Camelot Collective_ and created an [Etsy store](https://www.etsy.com/shop/CamelotCollective) to ship the calendar, greeting cards, pins, prints and Raku ware in time for the holidays.
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/calendar_picture.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+  	<img class="prototype" src="/assets/img/dogs/calendar_picture.jpeg" alt="Grant Park Summer Shade Festival booth picture"/>
   </div>
   <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/dog_portrait_advertisement.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+  	<img class="prototype" src="/assets/img/dogs/dog_portrait_advertisement.jpeg" alt="Grant Park Summer Shade Festival booth picture"/>
   </div>
 </div>
 
@@ -23,16 +23,16 @@ I am excited to have an online store to get feedback on my latest pen and ink wo
 
 <div class="row">
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/first_sale.jpg" alt="A harassed me about to mail my first sale"/>
+  	<img class="prototype" src="/assets/img/dogs/first_sale.jpeg" alt="A harassed me about to mail my first sale"/>
   </div>
   <div class="col-md-6 pt-4">
-  	<img class="prototype" src="/assets/img/design/duney_front_card.jpg" alt="Duney A7 Card"/>
+  	<img class="prototype" src="/assets/img/dogs/duney_front_card.jpeg" alt="Duney A7 Card"/>
   </div>
   <div class="col-md-6 pt-4">
-  	<img class="prototype" src="/assets/img/design/harlee_card.jpg" alt="Harlee A7 Card"/>
+  	<img class="prototype" src="/assets/img/dogs/harlee_card.jpeg" alt="Harlee A7 Card"/>
   </div>
   <div class="col-lg-12 pt-4 pb-4">
-    <img class="prototype" src="/assets/img/design/tp_card.jpg" alt="Trailer Park A7 Card"/>
+    <img class="prototype" src="/assets/img/dogs/tp_card.jpeg" alt="Trailer Park A7 Card"/>
   </div>
 </div>
 
@@ -40,7 +40,7 @@ The other nice thing about switching to pen and ink drawings is that I can creat
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/my_office.jpg" alt="My office on Camelot Ln"/>
+  	<img class="prototype" src="/assets/img/design/my_office.jpeg" alt="My office on Camelot Ln"/>
   </div>
 </div>
 
@@ -54,9 +54,9 @@ Carolyn wrote up a great description for the Raku pots we made with Zach and Lis
 
 <div class="row">
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/raku_monster.jpg" alt="Raku monster"/>
+  	<img class="prototype" src="/assets/img/raku/raku_monster.jpeg" alt="Raku monster"/>
   </div>
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/raku_pinch_pot.jpg" alt="Raku pinch pot"/>
+  	<img class="prototype" src="/assets/img/raku/raku_pinch_pot.jpeg" alt="Raku pinch pot"/>
   </div>
 </div>
