@@ -6,7 +6,7 @@ tags: [illustration, postal, mom]
 thumbnail: /assets/img/design/mom_invitation.svg
 ---
 
-I made invitations for my mom's birthday this weekend! The design for the pattern came from a phone conversation with her where I tried to get her to list things that she liked without making her suspicious. I also made magnets from the invitation as party favors and a [yacht rock](https://open.spotify.com/playlist/073y7oIhU3cuP3UAEH6fGP) playlist for the dinner. She loved the magnets, but was offended by the playlist.
+I made invitations for my mom's birthday this weekend! The design for the pattern came from a phone conversation with her where I tried to get her to list things that she liked without making her suspicious. I also made magnets from the invitation as party favors and a [yacht rock](https://open.spotify.com/playlist/073y7oIhU3cuP3UAEH6fGP) playlist for the dinner. She loved the magnets, but was disturbed by the playlist.
 
 <div class="row">
   <div class="col-md-6 pt-4">

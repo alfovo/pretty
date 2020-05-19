@@ -22,7 +22,7 @@ After conducting my research, I spent the first two weeks iterating with my clie
 
 A bright color palette, custom svg illustrations and simple typography highlight my client's warm and empathetic approach to life coaching.
 
-![business card mockup](/assets/img/design/nk_bcards.png)
+![business card mockup](/assets/img/design/nk_bcards.jpg)
 ![branding colors and type](/assets/img/design/nk_branding.svg)
 
 ### Prototype

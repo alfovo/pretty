@@ -39,7 +39,7 @@ We've added another [new series of cards](https://alexvolpert.com/2017/02/28/wom
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/sylvia_rivera_card.jpg" alt="Sylvia Rivera A7 card"/>
+  	<img class="prototype" src="/assets/img/design/dolores_huerta_card.jpg" alt="Sylvia Rivera A7 card"/>
   </div>
 </div>
 

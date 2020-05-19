@@ -34,6 +34,6 @@ In our call to action, we focused on easy, actionable ways to help monitor and r
 
 <div class="row">
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/gh_prototype.png" alt="Desktop design"/>
+  	<img class="prototype" src="/assets/img/design/gh_prototype.jpg" alt="Desktop design"/>
   </div>
 </div>
