@@ -10,7 +10,7 @@ My application to sell greeting cards at [Hodgepodge Coffee](https://hodgepodgec
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/dogs/german_co_card.jpeg" alt="German and dogs A7 card"/>
+  	<img class="prototype" src="/assets/img/dogs/german_co_card.jpg" alt="German and dogs A7 card"/>
   </div>
 </div>
 
