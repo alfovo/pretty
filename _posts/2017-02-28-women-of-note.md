@@ -6,13 +6,13 @@ tags: [postal, illustration, camelot]
 thumbnail: /assets/img/design/shirley_chisholm_card.jpg
 ---
 
-Inspired by the [Women's March](https://en.wikipedia.org/wiki/2017_Women%27s_March), we created a portrait series to highlight the work of lesser known female activists.
+Inspired by the [Women's March](https://en.wikipedia.org/wiki/2017_Women%27s_March), Carolyn and I created a portrait series to highlight the work of lesser known women activists.
 
 ### Sylvia Rivera
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/sylvia_rivera_card.jpg" alt="Sylvia Rivera A7 card"/>
+  	<img class="prototype" src="/assets/img/women_of_note/sylvia_rivera_card.jpeg" alt="Sylvia Rivera A7 card"/>
   </div>
 </div>
 
@@ -24,7 +24,7 @@ Sylvia Rivera was a drag queen and civil rights activist who fought for transgen
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
-    <img class="prototype" src="/assets/img/design/ella_baker_card.jpg" alt="Ella Baker A7 card"/>
+    <img class="prototype" src="/assets/img/women_of_note/ella_baker_card.jpeg" alt="Ella Baker A7 card"/>
   </div>
 </div>
 
@@ -36,7 +36,7 @@ A hero of the civil rights movement, Ella Baker played key roles in the NAACP, t
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
-    <img class="prototype" src="/assets/img/design/shirley_chisholm_card.jpg" alt="Ella Baker A7 card"/>
+    <img class="prototype" src="/assets/img/women_of_note/shirley_chisholm_card.jpeg" alt="Ella Baker A7 card"/>
   </div>
 </div>
 
@@ -48,7 +48,7 @@ In 1969, Shirley Chisholm was the first black woman to be elected to the US Cong
 
 <div class="row">
   <div class="col-lg-12 pt-2 pb-4">
-    <img class="prototype" src="/assets/img/design/bjk_card.jpg" alt="Ella Baker A7 card"/>
+    <img class="prototype" src="/assets/img/women_of_note/bjk_card.jpg" alt="Ella Baker A7 card"/>
   </div>
 </div>
 
