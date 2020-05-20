@@ -10,12 +10,12 @@ Carolyn, our neighbor Louisa and I sold our artwork at our neighborhood's summer
 
 <div class="row">
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/clarkston_booth.jpg" alt="Clarkston Culture Fest booth picture"/>
+  	<img class="prototype" src="/assets/img/booth_photos/clarkston_booth.jpeg" alt="Clarkston Culture Fest booth picture"/>
   </div>
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/clarkston_booth_close_up.jpg" alt="Clarkston Culture Fest booth close up"/>
+  	<img class="prototype" src="/assets/img/booth_photos/clarkston_booth_close_up.jpeg" alt="Clarkston Culture Fest booth close up"/>
   </div>
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/camelot_collective_gang.jpg" alt="Camelot Collective at Clarkston Culture Fest"/>
+  	<img class="prototype" src="/assets/img/booth_photos/camelot_collective_gang.jpg" alt="Camelot Collective at Clarkston Culture Fest"/>
   </div>
 </div>
