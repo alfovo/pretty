@@ -10,10 +10,10 @@ As Camelot Collective, Carolyn, Louisa and I shared a booth at the [Grant Park S
 
 <div class="row">
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/grant_park_booth.jpg" alt="Grant Park Summer Shade Festival booth picture"/>
+  	<img class="prototype" src="/assets/img/booth_photos/grant_park_booth.jpeg" alt="Grant Park Summer Shade Festival booth picture"/>
   </div>
   <div class="col-lg-12 pt-4">
-  	<img class="prototype" src="/assets/img/design/grant_park_close_up.jpg" alt="Grant Park Summer Shade Festival booth close up"/>
+  	<img class="prototype" src="/assets/img/booth_photos/grant_park_close_up.jpeg" alt="Grant Park Summer Shade Festival booth close up"/>
   </div>
   <div class="col-lg-12 pt-4 pb-4">
   	<img src="/assets/img/patterns/camelot_collective_pattern.svg" alt="Grant Park Summer Shade Festival booth picture"/>
