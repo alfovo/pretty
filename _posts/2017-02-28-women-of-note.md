@@ -3,7 +3,7 @@ layout: post
 title: Women of Note
 date: 2017-02-28 14:49:03 -0500
 tags: [postal, illustration, camelot]
-thumbnail: /assets/img/design/shirley_chisholm_card.jpg
+thumbnail: /assets/img/women_of_note/shirley_chisholm_card.jpeg
 ---
 
 Inspired by the [Women's March](https://en.wikipedia.org/wiki/2017_Women%27s_March), Carolyn and I created a portrait series to highlight the work of lesser known women activists.
