@@ -1,12 +1,12 @@
 ---
 layout: post
 title: WebSockets & Protocol Suite Etiquette
-date: 2019-07-01 14:49:03 -0500
-tags: [code, research, ir]
+date: 2020-05-22 14:49:03 -0500
+tags: [research, ir]
 thumbnail: /assets/img/design/etiquette.svg
 ---
 
-How do servers conduct themselves when performing the risky, untoward act of sending data to each other across the wild, wild web? What is the proper[^1] protocol? Most of the web is based on the _HyperText Transfer Protocol_ (HTTP) request/response model of client initiated transactions.  Your browser, the client, politely requests data from a server and the server responds to those requests. Even better, when following the _Transmission Control Protocol_ (TCP) on which HTTP is based, the client will send an acknowledgement that the data has been received, so the server can resend if the data gets lost. Because of this behavior, TCP is described as a connection based, stream-oriented protocol.
+How do servers conduct themselves when performing the risky, untoward act of sending data to each other across the wild, wild web? What is the proper[^1] protocol? Most of the web is based on the _HyperText Transfer Protocol_ (HTTP) request/response model of client initiated transactions.  Your browser, the client, politely requests data from a server and the server responds to those requests. Even better, when following the _Transmission Control Protocol_ (TCP) on which HTTP is based, the client will send an acknowledgement that the data has been received so the server can resend if the data gets lost. Because of this behavior, TCP is described as a connection based, stream-oriented protocol.
 
 Consider the _User Datagram Protocol_ (UDP), an alternative to TCP. While the communication is still initiated by the client, this protocol is "connectionless" or message-oriented, because the server will send data without checking on the state or readiness of the client. This is the late 90s coffeeshop slam poetry of data transfer: the server will refuse to do normal audience banter, opening its mouth only to send a jumbled bunch of datagrams and then drop the mic.
 
@@ -43,9 +43,9 @@ WebSockets provide a persistent, low latency connection that can support transac
 WebSockets are great for the chat application I work with at my current job because:
 
 1. They don't require the client to poll the server for new messages, instead the server can send messages to the client whenever data becomes available.
-2. Data is transferred through a WebSocket as messages, each of which consists of one or more frames containing the data you are sending. In order to ensure the message can be properly reconstructed when it reaches the client each frame is prefixed with 4-12 bytes of data about the payload. Using this frame-based messaging system helps to reduce the amount of non-payload data that is transferred, leading to significant reductions in latency.
+2. They use a frame-based messaging system that reduces the amount of non-payload data that is transferred, reducing latency.
 
-However, a downside to using WebSockets is that browsers allow huge numbers of open WebSocket connections. For most of our products we send the user several messages, and each message requires them to open a new connection to our chatbot in their browser. A user could have our application open in a bunch of tabs on their phone for who knows how long! My latest project is to see how many concurrent connections we are supporting in production and what the maximum number of concurrent connections our WebSocket gateway can handle while keeping response times below a second.
+A downside to using WebSockets is that browsers allow huge numbers of open WebSocket connections. For most of our products we send the user several messages, and each message requires them to open a new connection to our chatbot in their browser. A user could have our application open in a bunch of tabs on their phone for who knows how long! Don't worry we've handled it, but you know, just food for thought.
 
 Would it be possible to build WebSockets on a UDP rather than TCP connection?  It does seem especially necessary for WebSockets to be connection based, i.e. the client is assuredly ready to receive unrequested data from the server. Also, it seems to me that sacrificing reliability comes at an exceptionally high cost in computing. It reminds me of the steadfast popularity of ACID compliant data stores, like PostgreSQL, despite their age and decided unfashionableness.
 
