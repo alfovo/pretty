@@ -6,7 +6,9 @@ tags: [research, ir]
 thumbnail: /assets/img/design/etiquette.svg
 ---
 
-How do servers conduct themselves when performing the risky, untoward act of sending data to each other across the wild, wild web? What is the proper[^1] protocol? Most of the web is based on the _HyperText Transfer Protocol_ (HTTP) request/response model of client initiated transactions.  Your browser, the client, politely requests data from a server and the server responds to those requests. Even better, when following the _Transmission Control Protocol_ (TCP) on which HTTP is based, the client will send an acknowledgement that the data has been received so the server can resend if the data gets lost. Because of this behavior, TCP is described as a connection based, stream-oriented protocol.
+How do servers conduct themselves when performing the risky, untoward act of sending data to each other across the wild, wild web? What is the proper[^1] protocol?
+
+Most of the web is based on the _HyperText Transfer Protocol_ (HTTP) request/response model of client initiated transactions.  Your browser, the client, politely requests data from a server and the server responds to those requests. Even better, when following the _Transmission Control Protocol_ (TCP) on which HTTP is based, the client will send an acknowledgement that the data has been received so the server can resend if the data gets lost. Because of this behavior, TCP is described as a connection based, stream-oriented protocol.
 
 Consider the _User Datagram Protocol_ (UDP), an alternative to TCP. While the communication is still initiated by the client, this protocol is "connectionless" or message-oriented, because the server will send data without checking on the state or readiness of the client. This is the late 90s coffeeshop slam poetry of data transfer: the server will refuse to do normal audience banter, opening its mouth only to send a jumbled bunch of datagrams and then drop the mic.
 
@@ -16,7 +18,7 @@ By boldly forgoing the customary handshake, the hassle of worrying if the data h
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/etiquette2.svg" alt="My office on Camelot Ln"/>
+  	<img class="prototype" src="/assets/img/design/etiquette2.svg" alt="etiquette book by emily post"/>
   </div>
 </div>
 > **The test of good manners is to be able to put up pleasantly with bad ones.
@@ -32,7 +34,7 @@ Solutions like long polling, where a HTTP connection was held open until the ser
 
 <div class="row">
   <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/internet_protocol.svg" alt="My office on Camelot Ln"/>
+  	<img class="prototype" src="/assets/img/design/internet_protocol.svg" alt="Internet protocol intrigue"/>
   </div>
 </div>
 > **“The world was my oyster but I used the wrong fork.”
