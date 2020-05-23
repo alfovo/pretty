@@ -16,7 +16,7 @@ Inspired by the [Women's March](https://en.wikipedia.org/wiki/2017_Women%27s_Mar
   </div>
 </div>
 
-> “Hell hath no fury like a drag queen scorned”
+> “Hell hath no fury like a drag queen scorned.”
 
 Sylvia Rivera was a drag queen and civil rights activist who fought for transgender and gay rights. She fought to keep both transgender people and drag culture as a part of the broader lesbian and gay rights movement. While marching in Italy, she was dubbed “The mother of all gay people”.
 
