@@ -1,5 +1,5 @@
 ---
-layout: illustration_page
+layout: illustration
 title: Illustration
 permalink: /illustration/
 ---

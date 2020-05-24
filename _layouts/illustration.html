@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% assign image_files = site.static_files | where: "image", true %}
+
+<div class="illustration-grid-container">
+  {% for image in image_files %} {% if image.path contains 'illustration' %} {%
+  if image.extname == '.svg' %}
+  <li>
+    <object data="{{ image.path }}" type="image/svg+xml" alt="illustration">
+      <img src="{{ image.path }}" />
+    </object>
+  </li>
+  {%- else -%}
+  <li>
+    <img src="{{ image.path }}" alt="illustration" />
+  </li>
+  {% endif %} {% endif %} {% endfor %}
+</div>
