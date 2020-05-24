@@ -4,11 +4,7 @@ title: 🦇
 permalink: /about/
 ---
 
-<div class="row">
-	<div class="pb-1">
-		<img src="/assets/img/patterns/plant_pattern_banner.jpg" alt="portrait of an angler fish angling for ca$h">
-	</div>
-</div>
+![a picture of my plants](/assets/img/patterns/plant_pattern_banner.jpg)
 
 ## Welcome to my piece of internet!
 

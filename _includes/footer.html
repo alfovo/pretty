@@ -1,40 +1,29 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}" />
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%} {{ site.author | escape }} {%- else -%} {{
-            site.title | escape }} {%- endif -%}
-          </li>
-          {%- if site.email -%}
-          <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-          {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="col-lg-4">
-        <p class="text-left text-lg-center">
-          {{- site.description | escape -}}
-        </p>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="text-left text-lg-right social-medias">
-          <a href="https://dribbble.com/volpertindustries"
-            ><i class="fab fa-dribbble"></i
-          ></a>
-          <a href="https://github.com/alfovo"><i class="fab fa-github"></i></a>
-          <a href="https://instagram.com/tagging_whales"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/alexandra-volpert-a6a2a758/"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-        </div>
-      </div>
+  <ul>
+    <div class="p-name">
+      {%- if site.author -%} {{ site.author | escape }} {%- else -%} {{
+      site.title | escape }} {%- endif -%}
     </div>
-  </div>
+    {%- if site.email -%}
+    <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    {%- endif -%}
+  </ul>
+  <ul>
+    <p class="site-description">
+      {{- site.description | escape -}}
+    </p>
+  </ul>
+  <ul class="social-medias">
+    <a href="https://dribbble.com/volpertindustries"
+      ><i class="fab fa-dribbble"></i
+    ></a>
+    <a href="https://github.com/alfovo"><i class="fab fa-github"></i></a>
+    <a href="https://instagram.com/tagging_whales"
+      ><i class="fab fa-instagram"></i
+    ></a>
+    <a href="https://www.linkedin.com/in/alexandra-volpert-a6a2a758/"
+      ><i class="fab fa-linkedin-in"></i
+    ></a>
+  </ul>
 </footer>

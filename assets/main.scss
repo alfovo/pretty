@@ -30,6 +30,7 @@ body {
   position: relative;
   max-width: 960px;
   margin: auto;
+  padding: 0 1rem;
 }
 
 h1,
@@ -63,19 +64,40 @@ a {
   }
 }
 
+.page-content {
+  padding: 1rem 0;
+}
+
 /* Styling for the header layout */
 
 .site-header {
   border-top: 0;
   border-bottom: 1.5px solid $very-soft-gray;
-  padding: 0.4rem 1rem 0.2rem 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
-/* Styling for the design page layout */
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0 0 0;
+  & li {
+    list-style: none;
+    padding: 0.25rem 0.5rem 0rem 0.5rem;
+    letter-spacing: 1px;
+  }
+}
+
+.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Styling for the projects page layout */
 
 .grid-container {
   list-style: none;
-  margin: -20px 1.5rem;
+  margin-top: -10px;
   display: grid;
   grid-gap: 2.3rem;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -104,8 +126,9 @@ a {
 /* Styling for the illustration page layout */
 
 .illustration-grid-container {
+  padding-top: 0.5rem;
   list-style: none;
-  margin: 0.5rem 1.5rem;
+  margin: 0.5rem 0rem;
   display: grid;
   grid-gap: 2.3rem;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -119,6 +142,14 @@ a {
 
 /* Styling for the post layout */
 
+article a {
+  text-decoration: underline;
+}
+
+.post {
+  max-width: 630px;
+}
+
 .dt-published {
   @include sans-serif-font {
     font-weight: 300;
@@ -131,8 +162,6 @@ a {
 .post-title {
   padding-bottom: 0.15em;
 }
-
-// styling for tags for posts
 
 .tag-list {
   @include sans-serif-font {
@@ -148,7 +177,6 @@ a {
     @media screen and (max-width: 800px) {
       display: block;
       border-right: none;
-      border-bottom: 1px solid #e8e8e8;
       padding-bottom: 3px;
       padding-top: 5px;
       padding-left: 0px;
@@ -181,14 +209,6 @@ ul.tag-list {
   margin: 0px;
 }
 
-// wrapper
-.post-content {
-  max-width: 630px;
-  & a {
-    text-decoration: underline;
-  }
-}
-
 .prototype {
   box-shadow: 0px 5px 8px #e0e0e0;
 }
@@ -198,13 +218,35 @@ blockquote {
   letter-spacing: 1.5px;
   color: $primary-text-color;
 }
+
 /* Styling for the footer */
 
-footer {
+.site-footer {
+  padding: 2rem 0 2.5rem 0;
+  border-top: 1.5px solid $very-soft-gray;
   color: $medium-text-color;
 }
 
-.social-medias a {
-  margin-right: 5px;
-  margin-left: 5px;
+.u-url {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  & ul {
+    margin: 0;
+    flex: 1 1 0px;
+  }
+}
+
+.site-description {
+  text-align: center;
+}
+
+.social-medias {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  & a {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
 }
