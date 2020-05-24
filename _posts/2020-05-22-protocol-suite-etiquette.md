@@ -48,7 +48,9 @@ The frustration and limitations of Comet inspired developers Michael Carter and 
 
 WebSockets provide a persistent, low latency connection that can support transactions initiated by either the client or server[^7]. To establish a WebSocket connection, the client uses standard HTTP protocol to request an "upgrade" from HTTP to a WebSocket connection. If the server supports WebSockets it will respond with an _HTTP/1.1 101 Switching Protocols_ response, which replaces the initial HTTP connection with a WebSocket connection that uses the same underlying TCP/IP connection.
 
-In other words, WebSockets servers authenticate clients with that classic TCP handshake over HTTP and then, after upgrading to a WebSocket connection, repurpose that underlying TCP connection. The intent is is to provide the thinnest possible transport layer on top of TCP while handling some web-specific concerns.
+In other words, WebSockets servers authenticate clients with that classic TCP handshake over HTTP and then, after upgrading to a WebSocket connection, repurpose that underlying TCP connection. The intent is to provide the thinnest possible transport layer on top of TCP while handling some web-specific concerns.
+
+## Enter, Moi
 
 WebSockets are great for the chat application I work with at my current job because:
 
@@ -57,8 +59,6 @@ WebSockets are great for the chat application I work with at my current job beca
 3. They provide a mechanism to detect dropped (disconnected) clients and can handle up to 1024 connections per browser.
 
 A downside to using WebSockets is that they don’t automatically recover when connections are terminated. Luckily, the client-side library we use does this for us.
-
-## Enter, Moi
 
 I enjoyed learning about WebSockets for work and with the confidence of a beginner I wonder, would it be possible to build WebSockets on a UDP rather than TCP connection? Would this make them feel closer to the transport layer protocol the word "socket" implies, rather than a tag along to HTTP? Surprise me!
 
@@ -74,7 +74,7 @@ WebSockets had a contentious beginning[^8] and a very unstable spec for some tim
 [^3]: While reading gossipy comparisons of TCP to UDP, it struck me that sacrificing reliability comes at an exceptionally high cost in computing. Content from TCP "heads" reminds me of the steadfast popularity of ACID-compliant data stores, like PostgreSQL, despite their age and decided unfashionableness. By the way, top TCP head content is "I could tell you a joke about UDP, but you might not get it."
 [^4]: The term 'real-time' always makes me laugh. A 'real-time' application sounds like you are applying to become a fourth-dimensional being.
 [^5]: <https://infrequently.org/2006/03/comet-low-latency-data-for-the-browser/>
-[^6]: You can still find the [IRC chat](https://krijnhoetmer.nl/irc-logs/whatwg/20080618#l-1145) and the [W3C mailing list](https://lists.w3.org/Archives/Public/public-whatwg-archive/2008Jun/0165.html) where they started planning out WebSockets. Personally I think the coolest part is when they talk about whether not wanting your IRC chat logged is valid a privacy concern. Someone says it's antisocial, another (jokingly?) that it's so not web 2.0. Prescient.
+[^6]: You can still find the [IRC chat](https://krijnhoetmer.nl/irc-logs/whatwg/20080618#l-1145) and the [W3C mailing list](https://lists.w3.org/Archives/Public/public-whatwg-archive/2008Jun/0165.html) where they started planning out WebSockets. Personally I think the coolest part is when they talk about whether not wanting your IRC chat logged is a valid privacy concern. Someone says it's antisocial, another (jokingly?) that it's so not web 2.0. Prescient.
 [^7]: There is a way, standardized as part of HTML5, to send push notifications from server to client with regular old HTTP: [Server-sent events](https://en.wikipedia.org/wiki/Server-sent_events). The WebSocket use case is _bidirectional_ communication.
 [^8]: <https://www.cnet.com/news/web-sockets-and-the-risks-of-unfinished-standards/>
 [^9]: <https://docs.microsoft.com/en-us/previous-versions/msdn10/hh563510(v=msdn.10)>
