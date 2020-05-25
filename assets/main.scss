@@ -150,6 +150,26 @@ article a {
   max-width: 630px;
 }
 
+.image-series {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-series img {
+  margin: 1rem 0;
+}
+
+.horizontal-content {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 1rem auto;
+  flex-wrap: wrap;
+  & li {
+    max-width: 300px;
+  }
+}
+
 .dt-published {
   @include sans-serif-font {
     font-weight: 300;
@@ -231,20 +251,28 @@ blockquote {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   & ul {
     margin: 0;
     flex: 1 1 0px;
+    min-width: 300px;
   }
 }
 
 .site-description {
   text-align: center;
+  @media screen and (max-width: 600px) {
+    text-align: left;
+  }
 }
 
 .social-medias {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  @media screen and (max-width: 925px) {
+    justify-content: flex-start;
+  }
   & a {
     margin-right: 5px;
     margin-left: 5px;

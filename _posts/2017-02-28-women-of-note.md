@@ -10,10 +10,8 @@ Inspired by the [Women's March](https://en.wikipedia.org/wiki/2017_Women%27s_Mar
 
 ### Sylvia Rivera
 
-<div class="row">
-  <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/women_of_note/sylvia_rivera_card.jpeg" alt="Sylvia Rivera A7 card"/>
-  </div>
+<div class="image-series">
+	<img class="prototype" src="/assets/img/women_of_note/sylvia_rivera_card.jpeg" alt="Sylvia Rivera A7 card"/>
 </div>
 
 > “Hell hath no fury like a drag queen scorned.”
@@ -22,10 +20,8 @@ Sylvia Rivera was a drag queen and civil rights activist who fought for transgen
 
 ### Ella Baker
 
-<div class="row">
-  <div class="col-lg-12 pt-4 pb-4">
-    <img class="prototype" src="/assets/img/women_of_note/ella_baker_card.jpeg" alt="Ella Baker A7 card"/>
-  </div>
+<div class="image-series">
+  <img class="prototype" src="/assets/img/women_of_note/ella_baker_card.jpeg" alt="Ella Baker A7 card"/>
 </div>
 
 > “Strong people don’t need strong leaders.”
@@ -34,10 +30,8 @@ A hero of the civil rights movement, Ella Baker played key roles in the NAACP, t
 
 ### Shirley Chisholm
 
-<div class="row">
-  <div class="col-lg-12 pt-4 pb-4">
+<div class="image-series">
     <img class="prototype" src="/assets/img/women_of_note/shirley_chisholm_card.jpeg" alt="Ella Baker A7 card"/>
-  </div>
 </div>
 
 > “If they don't give you a seat at the table, bring a folding chair.”
@@ -46,10 +40,8 @@ In 1969, Shirley Chisholm was the first black woman to be elected to the US Cong
 
 ### Billie Jean King
 
-<div class="row">
-  <div class="col-lg-12 pt-2 pb-4">
-    <img class="prototype" src="/assets/img/women_of_note/bjk_card.jpg" alt="Ella Baker A7 card"/>
-  </div>
+<div class="image-series">
+  <img class="prototype" src="/assets/img/women_of_note/bjk_card.jpg" alt="Ella Baker A7 card"/>
 </div>
 
 > “If you're going to make an error, make a doozy.”
