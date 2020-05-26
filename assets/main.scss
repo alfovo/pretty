@@ -172,7 +172,6 @@ article a {
 
 .dt-published {
   @include sans-serif-font {
-    font-weight: 300;
     font-size: 12px;
   }
   text-transform: uppercase;
@@ -186,7 +185,6 @@ article a {
 .tag-list {
   @include sans-serif-font {
     font-size: 14px;
-    font-weight: 300;
   }
   color: $medium-text-color;
   letter-spacing: 1.5px;

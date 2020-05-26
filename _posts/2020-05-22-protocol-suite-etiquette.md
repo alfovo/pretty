@@ -18,28 +18,24 @@ Alas, wouldn't it be cool if we had UDP support in the browser?[^2] I can only n
 
 ## And Now, Double Time
 
-<div class="row">
-  <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/etiquette2.svg" alt="etiquette book by emily post"/>
-  </div>
+<div class="image-series">
+  <img class="prototype" src="/assets/img/design/etiquette2.svg" alt="etiquette book by Emily post"/>
 </div>
 > **The test of good manners is to be able to put up pleasantly with bad ones.
 -- Wendell Willkie**
 
 Like etiquette, data transfer protocols are complicated and evolving. As a connection-based protocol, HTTP has been called too "chatty", because it requires so much reassuring back and forth between client and server. In contrast, UDP could be called too "venty" because it does not give a hoot about what the client has to say while communicating a torrent of information.
 
-As web applications with high-frequency request-response cycles (real-time web applications if you will[^4]) became more popular in the mid-2000s, the traditional HTTP model no longer seemed appropriate. Setting up a new connection every request/response cycle introduced too much latency. Ideally there would be a persistent connection between client and server that was bidirectional, allowing the server to send data to the client without the client having to request it. The umbrella term "Comet", coined in a blog post[^5] by Alex Russell in 2006, was used for techniques approximating real-time back-and-forth communication between a web page and server.
+The traditional HTTP model no longer seemed appropriate as web applications with high-frequency request-response cycles (real-time web applications if you will[^4]) became more popular in the mid-2000s. Setting up a new connection every request/response cycle introduced too much latency. Ideally there would be a persistent connection between client and server that was bidirectional, allowing the server to send data to the client without the client having to request it.[^5]
 
-The most popular solution was long polling, where a XMLHttpRequest connection to the server was held open until ongoing communication was no longer required. However, long polling was not ideal because the cookie and header data within the HTTP request made data transfer bandwidth intensive, and multiple simultaneous HTTP requests from the same client could scramble message order.
+The most popular solution was long polling, where an XMLHttpRequest (XHR) connection to the server was held open until ongoing communication was no longer required. However, long polling was not ideal because the cookie and header data within the HTTP request made data transfer bandwidth intensive, and multiple simultaneous HTTP requests from the same client could scramble message order.
 
 Was it possible to create a bidirectional connection based protocol with the reliability of TCP, that was low latency and message-oriented like UDP, and also built to address all the concerns that arise when operating in a web environment?
 
 ## Enter, WebSockets
 
-<div class="row">
-  <div class="col-lg-12 pt-4 pb-4">
-  	<img class="prototype" src="/assets/img/design/internet_protocol.svg" alt="Internet protocol intrigue"/>
-  </div>
+<div class="image-series">
+  <img class="prototype" src="/assets/img/design/internet_protocol.svg" alt="Internet protocol intrigue"/>
 </div>
 > **“The world was my oyster but I used the wrong fork.”
 -- Oscar Wilde**
@@ -50,9 +46,7 @@ WebSockets provide a persistent, low latency connection that can support transac
 
 In other words, WebSockets servers authenticate clients with that classic TCP handshake over HTTP and then, after upgrading to a WebSocket connection, repurpose that underlying TCP connection. The intent is to provide the thinnest possible transport layer on top of TCP while handling some web-specific concerns.
 
-## Enter, Moi
-
-WebSockets are great for the chat application I work with at my current job because:
+WebSockets are great for the chat applications like the one I work with at my current job because:
 
 1. They don't require the client to poll the server for new messages, instead the server can send messages to the client whenever data becomes available.
 2. They use a frame-based messaging system that reduces the amount of non-payload data that is transferred, reducing latency.
@@ -60,22 +54,21 @@ WebSockets are great for the chat application I work with at my current job beca
 
 A downside to using WebSockets is that they don’t automatically recover when connections are terminated. Luckily, the client-side library we use does this for us.
 
-I enjoyed learning about WebSockets for work and with the confidence of a beginner I wonder, would it be possible to build WebSockets on a UDP rather than TCP connection? Would this make them feel closer to the transport layer protocol the word "socket" implies, rather than a tag along to HTTP? Surprise me!
+## Enter, Moi
+
+I enjoyed learning about WebSockets for work, and with the confidence of a beginner I wonder, would it be possible to build WebSockets on a UDP rather than TCP connection? Would this make them feel closer to the transport layer protocol the word "socket" implies, rather than a tag along to HTTP? Surprise me!
 
 WebSockets had a contentious beginning[^8] and a very unstable spec for some time[^9]. It reminds one of Princess Maria Argyropoulina, who scandalized Venice by having guests at her wedding use the novel fork in place of their God-given hands[^10]. St. Peter Damian, a hermit and ascetic, was so offended by the princess's daintiness that he declared her untimely death from the plague a just punishment by God for her vanity. Maybe at first WebSockets seemed like a vestigial limb growing out of HTTP, but like forks, we can't imagine living without them now.
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-### Footnotes
+#### Footnotes
 
 [^1]: Doing away with these social niceties allows the UDP header to be [only 8 bytes compared to TCP's 20 bytes](https://www.geeksforgeeks.org/user-datagram-protocol-udp/).
 [^2]: I wonder if there was talk about adding UDP support for the web during the browser wars raged between Netscape and Microsoft from 1995 to 2001, but I wasn't there, I was spilling my guts to SmarterChild at my best friend's house.
-[^3]: While reading gossipy comparisons of TCP to UDP, it struck me that sacrificing reliability comes at an exceptionally high cost in computing. Content from TCP "heads" reminds me of the steadfast popularity of ACID-compliant data stores, like PostgreSQL, despite their age and decided unfashionableness. By the way, top TCP head content is "I could tell you a joke about UDP, but you might not get it."
+[^3]: While reading gossipy comparisons of TCP to UDP, it struck me that sacrificing reliability for speed comes at an exceptionally high cost in computing. Content from TCP "heads" reminds me of the steadfast popularity of ACID-compliant data stores, like PostgreSQL, despite their age and decided unfashionableness. By the way, top TCP head content is "I could tell you a joke about UDP, but you might not get it."
 [^4]: The term 'real-time' always makes me laugh. A 'real-time' application sounds like you are applying to become a fourth-dimensional being.
-[^5]: <https://infrequently.org/2006/03/comet-low-latency-data-for-the-browser/>
+[^5]: The umbrella term "Comet", coined in a [blog post](https://infrequently.org/2006/03/comet-low-latency-data-for-the-browser/) by Alex Russell in 2006, was used for techniques approximating real-time back-and-forth communication between a web page and server.
 [^6]: You can still find the [IRC chat](https://krijnhoetmer.nl/irc-logs/whatwg/20080618#l-1145) and the [W3C mailing list](https://lists.w3.org/Archives/Public/public-whatwg-archive/2008Jun/0165.html) where they started planning out WebSockets. Personally I think the coolest part is when they talk about whether not wanting your IRC chat logged is a valid privacy concern. Someone says it's antisocial, another (jokingly?) that it's so not web 2.0. Prescient.
 [^7]: There is a way, standardized as part of HTML5, to send push notifications from server to client with regular old HTTP: [Server-sent events](https://en.wikipedia.org/wiki/Server-sent_events). The WebSocket use case is _bidirectional_ communication.
 [^8]: <https://www.cnet.com/news/web-sockets-and-the-risks-of-unfinished-standards/>
 [^9]: <https://docs.microsoft.com/en-us/previous-versions/msdn10/hh563510(v=msdn.10)>
-[^10]: You can read a great article on the history for forks [here](http://www.slate.com/articles/arts/design/2012/06/the_history_of_the_fork_when_we_started_using_forks_and_how_their_design_changed_over_time_.html)
+[^10]: You can read a great article on the history of forks [here](http://www.slate.com/articles/arts/design/2012/06/the_history_of_the_fork_when_we_started_using_forks_and_how_their_design_changed_over_time_.html)
