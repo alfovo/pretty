@@ -1,20 +1,19 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}" />
-  <ul>
+  <li>
     <div class="p-name">
-      {%- if site.author -%} {{ site.author | escape }} {%- else -%} {{
-      site.title | escape }} {%- endif -%}
+      {{ site.author | escape }}
     </div>
     {%- if site.email -%}
     <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
     {%- endif -%}
-  </ul>
-  <ul>
+  </li>
+  <li>
     <p class="site-description">
       {{- site.description | escape -}}
     </p>
-  </ul>
-  <ul>
+  </li>
+  <li>
     <div class="social-medias">
       {%- if site.github_username -%}
       <a
@@ -54,5 +53,5 @@
       </a>
       {%- endif -%}
     </div>
-  </ul>
+  </li>
 </footer>

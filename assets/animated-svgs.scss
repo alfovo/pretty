@@ -1,0 +1,57 @@
+---
+---
+
+$primary-text-color: #333333;
+$dark-color: #141414;
+
+.eagle-arrows-icon {
+  animation: grow 1s ease-out backwards;
+  // adjust for firefox
+  transform-origin: 50% 50%;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+}
+
+.eagle-arrows-icon {
+  transition: transform 0.75s ease-out;
+}
+
+.eagle-arrows:hover .eagle-arrows-icon {
+  transform: rotate(-180deg);
+}
+
+.button-square {
+  background-color: $dark-color;
+  color: #fff;
+  border: 2.5px solid $dark-color;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  transition-property: color, background-color, box-shadow;
+  max-height: 4em;
+  &:hover,
+  &:active {
+    box-shadow: -10px 10px $dark-color;
+    color: $dark-color;
+    background-color: #fff;
+  }
+  & h4 {
+    margin: 0.75em;
+  }
+}
+
+.horizontal-content {
+  & li {
+    align-self: center;
+    padding: 0 1em;
+  }
+}

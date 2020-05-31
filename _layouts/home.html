@@ -10,8 +10,7 @@ layout: default
       | default: "%b %-d, %Y" %}
       <span class="post-meta">{{post.date | date: date_format }}</span>
     </div>
-    {% assign thumbnail = post.thumbnail %}
-    <img src="{{ thumbnail }}" alt="project post" />
+    <img src="{{ post.thumbnail }}" alt="project post" />
   </a>
   {% endfor %} {% endif %}
 </div>

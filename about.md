@@ -4,7 +4,7 @@ title: 🦇
 permalink: /about/
 ---
 
-<img class="prototype" style="width: 50%; margin-bottom: 1rem;" src="/assets/img/design/happy_fish.svg" alt="a welcoming, happy fish"/>
+<img class="prototype" style="width: 400px; margin-bottom: 1rem;" src="/assets/img/design/happy_fish.svg" alt="a welcoming, happy fish"/>
 
 ## Hello!
 
