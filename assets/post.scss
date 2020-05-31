@@ -2,6 +2,7 @@
 # Styling for the post layout
 ---
 
+// @import "main";
 @mixin sans-serif-font {
   font: 400 16px/1.5 avenir next, avenir, -apple-system, BlinkMacSystemFont,
     helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
@@ -53,43 +54,36 @@ $very-soft-gray: #e8e8e8;
   }
   color: $medium-text-color;
   letter-spacing: 1.5px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
   & li {
-    display: inline-block;
-    padding-right: 10px;
+    list-style: none;
+    padding: 0 10px 0 5px;
     border-right: 1.5px solid $very-soft-gray;
     @media screen and (max-width: 800px) {
-      display: block;
       border-right: none;
-      padding-bottom: 3px;
-      padding-top: 5px;
-      padding-left: 0px;
-    }
-  }
-  & li svg {
-    margin-right: 10px;
-    margin-left: 5px;
-    @media screen and (max-width: 800px) {
-      margin-left: 2px;
+      padding: 0 0 10px 0;
     }
   }
   & li:last-child {
     border-right: none;
     padding-left: 8px;
     @media screen and (max-width: 800px) {
-      padding-left: 0px;
+      padding-left: 0;
     }
+    display: flex;
+  }
+  & li:first-child {
+    padding-left: 0px;
   }
   & li:last-child svg {
-    margin-right: 2px;
-    margin-left: 2px;
+    padding-right: 5px;
   }
-  & li:first-child svg {
-    margin-left: 2px;
-  }
-}
-
-ul.tag-list {
-  margin: 0px;
 }
 
 .prototype {

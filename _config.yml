@@ -19,10 +19,11 @@ email: contact@alexvolpert.com
 description: >- # this means to ignore newlines until "baseurl:"
   Made with 💪, inspired by 🏤 .
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://alexvolpert.com/" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: tagging_whales
 dribbble_username: volpertindustries
 github_username: alfovo
+linkedin_username: alexandra-volpert-a6a2a758
 
 header_pages:
   - projects.md
@@ -38,6 +39,7 @@ defaults:
 # Build settings
 markdown: kramdown
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
