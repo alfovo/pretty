@@ -3,10 +3,22 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width initial-scale=1" />
   {%- seo -%} <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url
-  }}">
+  }}"> {% for css_name in page.extra_css %}
+  <link rel="stylesheet" href="{{ css_name | relative_url }}" />
+  {% endfor %} {%- if page.layout == 'post' -%}
+  <link rel="stylesheet" href="{{ '/assets/post.css' | relative_url }}" />
+  {%- endif -%} {%- if page.layout == 'home' -%}
+  <link rel="stylesheet" href="{{ '/assets/projects.css' | relative_url }}" />
+  {%- endif -%} {%- if page.layout == 'illustration' -%}
   <link
-    href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
     rel="stylesheet"
+    href="{{ '/assets/illustration.css' | relative_url }}"
+  />
+  {%- endif -%}
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato:400,700"
+    rel="stylesheet"
+    async
   />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
   {%- feed_meta -%} {%- if jekyll.environment == 'production' -%} {%- include

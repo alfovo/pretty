@@ -51,7 +51,7 @@ I surveyed nine people, ages 26 to 65, to understand their perceptions of and in
 
 > "It's not that I'm demotivated per se, I just don't know where to even start sometimes."
 
-{% include nk_pages.html %}
+{% include nk-pages.html %}
 
 #### Conclusions
 
