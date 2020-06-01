@@ -26,7 +26,7 @@ Alas, wouldn't it be cool if we had UDP support in the browser?[^2] I can only n
 
 Like etiquette, data transfer protocols are complicated and evolving. As a connection-based protocol, HTTP has been called too "chatty", because it requires so much reassuring back and forth between client and server. In contrast, UDP could be called too "venty" because it does not give a hoot about what the client has to say while communicating a torrent of information.
 
-The traditional HTTP model no longer seemed appropriate as web applications with high-frequency request-response cycles (real-time web applications if you will[^4]) became more popular in the mid-2000s. Setting up a new connection every request/response cycle introduced too much latency. Ideally there would be a persistent connection between client and server that was bidirectional, allowing the server to send data to the client without the client having to request it.[^5]
+The chattiness of HTTP started to grate on engineers in the mid-2000s as web applications with high-frequency request-response cycles (real-time web applications if you will[^4]) became more popular. Setting up a new connection every request/response cycle introduced too much latency. Ideally there would be a persistent connection between client and server that was bidirectional, allowing the server to send data to the client without the client having to request it.[^5]
 
 The most popular solution was long polling, where an XMLHttpRequest (XHR) connection to the server was held open until ongoing communication was no longer required. However, long polling was not ideal because the cookie and header data within the HTTP request made data transfer bandwidth intensive, and multiple simultaneous HTTP requests from the same client could scramble message order.
 
@@ -40,7 +40,7 @@ Was it possible to create a bidirectional connection based protocol with the rel
 > **“The world was my oyster but I used the wrong fork.”
 -- Oscar Wilde**
 
-The frustration and limitations of Comet inspired developers Michael Carter and Ian Hickson to introduce a new standard for modern real-time, bi-directional communication on the web that they coined ‘WebSocket’[^6]. In 2010 Google Chrome 4 was the first browser to fully support WebSockets and today all major browsers support WebSockets.
+Frustration eventually led developers Michael Carter and Ian Hickson to introduce a new standard for modern real-time, bi-directional communication on the web that they coined ‘WebSocket’[^6]. In 2010 Google Chrome 4 was the first browser to fully support WebSockets and today all major browsers support WebSockets.
 
 WebSockets provide a persistent, low latency connection that can support transactions initiated by either the client or server[^7]. To establish a WebSocket connection, the client uses standard HTTP protocol to request an "upgrade" from HTTP to a WebSocket connection. If the server supports WebSockets it will respond with an _HTTP/1.1 101 Switching Protocols_ response, which replaces the initial HTTP connection with a WebSocket connection that uses the same underlying TCP/IP connection.
 
