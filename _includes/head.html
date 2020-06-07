@@ -7,8 +7,6 @@
   <link rel="stylesheet" href="{{ css_name | relative_url }}" />
   {% endfor %} {%- if page.layout == 'post' -%}
   <link rel="stylesheet" href="{{ '/assets/post.css' | relative_url }}" />
-  {%- endif -%}{%- if page.layout == 'about' -%}
-  <link rel="stylesheet" href="{{ '/assets/about.css' | relative_url }}" />
   {%- endif -%}
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
   {%- feed_meta -%} {%- if jekyll.environment == 'production' -%} {%- include
