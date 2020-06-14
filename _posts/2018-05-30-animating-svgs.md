@@ -29,4 +29,4 @@ Puts you in mind of a Geocities site from the 1990s, no?
   {% svg /assets/img/design/animated/tools.svg %}
 </div>
 
-As one occasionally afflicted by cyber sickness, I don't love a ton of motion on my site. I never liked the parallax scrolling popular a few years ago, and I can be frightened by the popping open of a drawer or menu. But, I do feel nostalgic for old CSS transitions and animations of my childhood. Sometimes it feels like everything on the internet looks eerily similar as web designers scramble to keep up with the current trends. I can see why following trends is important in web design to reassure the user. An updated looking site is more likely to seem well maintained and trustworthy.
+Sometimes too much motion on a website can make me feel cyber sick. For example, I find the parallax scrolling popular a few years ago disorienting, and too much animation on buttons or menus distracting. But if the content of a site is only animation, bring it on! Animating SVGs without any JavaScript feels very look-ma-no-hands, and it made me feel quite nostalgic for internet 1.0.
