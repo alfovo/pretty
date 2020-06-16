@@ -163,3 +163,11 @@ article a {
     margin-right: 10px;
   }
 }
+
+/* Styling for the mona lisa picture on the about page */
+
+@media (max-width: 640px) {
+  #mona_lisa {
+    display: none;
+  }
+}
